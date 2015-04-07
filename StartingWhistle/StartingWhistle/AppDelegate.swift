@@ -16,11 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         Parse.setApplicationId("d4VycqrfJsrJEcZCwOWNLVZXIQubImgTt5poOxmd", clientKey:"lYoJnugdatqLF1RYP0agJKnr25niCZL8wESICtnx")
-        
-        var object = PFObject(className:"Countries")
-        let str = "London"
-        object.setObject(str, forKey: "capital")
-        object.save()
+
         return true
     }
 

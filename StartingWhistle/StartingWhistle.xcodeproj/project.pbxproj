@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96322BD91AD3A09500D3DBE3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96322BD81AD3A09500D3DBE3 /* Social.framework */; };
+		96322BDB1AD3A0D700D3DBE3 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96322BDA1AD3A0D700D3DBE3 /* Accounts.framework */; };
+		96322BDD1AD3A17B00D3DBE3 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96322BDC1AD3A17B00D3DBE3 /* ParseFacebookUtils.framework */; };
+		96322BDF1AD3A18200D3DBE3 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96322BDE1AD3A18200D3DBE3 /* ParseFacebookUtilsV4.framework */; };
 		9644BD1A1ACAA88B00613304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD191ACAA88B00613304 /* AppDelegate.swift */; };
 		9644BD1C1ACAA88B00613304 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD1B1ACAA88B00613304 /* ViewController.swift */; };
 		9644BD1F1ACAA88B00613304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9644BD1D1ACAA88B00613304 /* Main.storyboard */; };
@@ -30,8 +34,6 @@
 		9644BD5F1AD1D62B00613304 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9644BD541AD1D62B00613304 /* StoreKit.framework */; };
 		9644BD601AD1D62B00613304 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9644BD551AD1D62B00613304 /* SystemConfiguration.framework */; };
 		9644BD621AD1D8CA00613304 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9644BD611AD1D8CA00613304 /* ParseCrashReporting.framework */; };
-		9644BD641AD1D8DA00613304 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9644BD631AD1D8DA00613304 /* ParseFacebookUtils.framework */; };
-		9644BD661AD1D8E000613304 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9644BD651AD1D8E000613304 /* ParseFacebookUtilsV4.framework */; };
 		9644BD681AD1D8E600613304 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9644BD671AD1D8E600613304 /* ParseUI.framework */; };
 		9644BD711AD2406400613304 /* PopDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD6E1AD2406400613304 /* PopDatePicker.swift */; };
 		9644BD721AD2406400613304 /* PopDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD6F1AD2406400613304 /* PopDateViewController.swift */; };
@@ -51,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96322BD81AD3A09500D3DBE3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		96322BDA1AD3A0D700D3DBE3 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		96322BDC1AD3A17B00D3DBE3 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../parse-library/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		96322BDE1AD3A18200D3DBE3 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "../parse-library/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
 		9644BD141ACAA88B00613304 /* StartingWhistle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartingWhistle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9644BD181ACAA88B00613304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9644BD191ACAA88B00613304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,8 +84,6 @@
 		9644BD541AD1D62B00613304 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		9644BD551AD1D62B00613304 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9644BD611AD1D8CA00613304 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = ../ParseCrashReporting.framework; sourceTree = "<group>"; };
-		9644BD631AD1D8DA00613304 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = ../ParseFacebookUtils.framework; sourceTree = "<group>"; };
-		9644BD651AD1D8E000613304 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = ../ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		9644BD671AD1D8E600613304 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = ../ParseUI.framework; sourceTree = "<group>"; };
 		9644BD6B1AD1F53700613304 /* StartingWhistle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StartingWhistle-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		9644BD6E1AD2406400613304 /* PopDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDatePicker.swift; sourceTree = "<group>"; };
@@ -94,6 +98,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96322BDB1AD3A0D700D3DBE3 /* Accounts.framework in Frameworks */,
+				96322BD91AD3A09500D3DBE3 /* Social.framework in Frameworks */,
+				96322BDF1AD3A18200D3DBE3 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				96322BDD1AD3A17B00D3DBE3 /* ParseFacebookUtils.framework in Frameworks */,
 				9644BD561AD1D62B00613304 /* AudioToolbox.framework in Frameworks */,
 				9644BD571AD1D62B00613304 /* CFNetwork.framework in Frameworks */,
 				9644BD581AD1D62B00613304 /* CoreGraphics.framework in Frameworks */,
@@ -102,10 +110,8 @@
 				9644BD621AD1D8CA00613304 /* ParseCrashReporting.framework in Frameworks */,
 				9644BD5B1AD1D62B00613304 /* libz.dylib in Frameworks */,
 				9644BD5C1AD1D62B00613304 /* MobileCoreServices.framework in Frameworks */,
-				9644BD641AD1D8DA00613304 /* ParseFacebookUtils.framework in Frameworks */,
 				9644BD681AD1D8E600613304 /* ParseUI.framework in Frameworks */,
 				9644BD5D1AD1D62B00613304 /* QuartzCore.framework in Frameworks */,
-				9644BD661AD1D8E000613304 /* ParseFacebookUtilsV4.framework in Frameworks */,
 				9644BD5E1AD1D62B00613304 /* Security.framework in Frameworks */,
 				9644BD5F1AD1D62B00613304 /* StoreKit.framework in Frameworks */,
 				9644BD601AD1D62B00613304 /* SystemConfiguration.framework in Frameworks */,
@@ -127,6 +133,10 @@
 		9644BD0B1ACAA88B00613304 = {
 			isa = PBXGroup;
 			children = (
+				96322BDE1AD3A18200D3DBE3 /* ParseFacebookUtilsV4.framework */,
+				96322BDC1AD3A17B00D3DBE3 /* ParseFacebookUtils.framework */,
+				96322BDA1AD3A0D700D3DBE3 /* Accounts.framework */,
+				96322BD81AD3A09500D3DBE3 /* Social.framework */,
 				9644BD161ACAA88B00613304 /* StartingWhistle */,
 				9644BD2C1ACAA88B00613304 /* StartingWhistleTests */,
 				9644BD151ACAA88B00613304 /* Products */,
@@ -147,8 +157,6 @@
 			children = (
 				9644BD741AD2407000613304 /* PopDatePicker */,
 				9644BD671AD1D8E600613304 /* ParseUI.framework */,
-				9644BD651AD1D8E000613304 /* ParseFacebookUtilsV4.framework */,
-				9644BD631AD1D8DA00613304 /* ParseFacebookUtils.framework */,
 				9644BD611AD1D8CA00613304 /* ParseCrashReporting.framework */,
 				9644BD4B1AD1D62B00613304 /* AudioToolbox.framework */,
 				9644BD4C1AD1D62B00613304 /* CFNetwork.framework */,
@@ -453,6 +461,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/zixiangzhu/Documents/StartingWhistle/parse-library",
 				);
 				INFOPLIST_FILE = StartingWhistle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -471,6 +480,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/zixiangzhu/Documents/StartingWhistle/parse-library",
 				);
 				INFOPLIST_FILE = StartingWhistle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

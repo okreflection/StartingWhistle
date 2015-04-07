@@ -175,6 +175,9 @@
                             <state key="normal" title="Done">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="doneButton:" destination="jow-yM-0BB" eventType="touchUpInside" id="jdP-M0-GTS"/>
+                            </connections>
                         </button>
                         <sections>
                             <tableViewSection headerTitle="Location" id="sqV-HC-h9c">
@@ -286,6 +289,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="dateTextF" destination="s4h-Pr-pEr" id="uWJ-rf-6NT"/>
+                        <outlet property="locTextF" destination="c52-B0-gPY" id="iQI-fw-qif"/>
                         <outlet property="timeTextF" destination="qw7-Lp-avS" id="uh5-HY-oFp"/>
                         <outlet property="timeTextF2" destination="arY-jY-g1V" id="4Ku-tC-f6F"/>
                     </connections>

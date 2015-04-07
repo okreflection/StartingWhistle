@@ -14,6 +14,8 @@ class CreateGameController: UITableViewController, UITextFieldDelegate {
     var popTimePicker: PopDatePicker?
     var popTimePicker2: PopDatePicker?
     
+    @IBOutlet weak var locTextF: UITextField!
+    
     @IBOutlet weak var timeTextF: UITextField!
     
     @IBOutlet weak var timeTextF2: UITextField!
@@ -94,6 +96,22 @@ class CreateGameController: UITableViewController, UITextFieldDelegate {
         }
     }
 
+    @IBAction func doneButton(sender: UIButton) {
+        var city = "Beijing"
+        var locStr = locTextF.text
+        var dateStr = dateTextF.text
+        var startTimeStr = timeTextF.text
+        var endTimeStr = timeTextF2.text
+
+        var object = PFObject(className:"GameSchedule")
+        object.setObject(city, forKey: "city")
+        object.setObject(locStr, forKey: "location")
+        object.setObject(dateStr, forKey: "date")
+        object.setObject(startTimeStr, forKey: "startTime")
+        object.setObject(endTimeStr, forKey: "endTime")
+        object.save()
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
