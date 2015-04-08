@@ -40,6 +40,13 @@
 		9644BD731AD2406400613304 /* PopDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9644BD701AD2406400613304 /* PopDateViewController.xib */; };
 		9644BD761AD240C500613304 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD751AD240C500613304 /* DateUtils.swift */; };
 		9644BD781AD246F700613304 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD771AD246F700613304 /* ProfileViewController.swift */; };
+		96F26EAE1AD444C80049B90E /* MyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F26EAD1AD444C80049B90E /* MyLoginViewController.swift */; };
+		96F26EB01AD44CBC0049B90E /* Chelsea-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F26EAF1AD44CBC0049B90E /* Chelsea-icon.png */; };
+		96F26EB21AD452570049B90E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F26EB11AD452570049B90E /* logo.png */; };
+		96F26EB41AD453A70049B90E /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F26EB31AD453A70049B90E /* logo2.png */; };
+		96F26EB61AD4544F0049B90E /* logo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F26EB51AD4544F0049B90E /* logo3.png */; };
+		96F26EB81AD4552D0049B90E /* MySignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F26EB71AD4552D0049B90E /* MySignupViewController.swift */; };
+		96F26EBA1AD475A40049B90E /* cancel-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F26EB91AD475A40049B90E /* cancel-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +98,13 @@
 		9644BD701AD2406400613304 /* PopDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopDateViewController.xib; sourceTree = "<group>"; };
 		9644BD751AD240C500613304 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		9644BD771AD246F700613304 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		96F26EAD1AD444C80049B90E /* MyLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLoginViewController.swift; sourceTree = "<group>"; };
+		96F26EAF1AD44CBC0049B90E /* Chelsea-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chelsea-icon.png"; sourceTree = "<group>"; };
+		96F26EB11AD452570049B90E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		96F26EB31AD453A70049B90E /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		96F26EB51AD4544F0049B90E /* logo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo3.png; sourceTree = "<group>"; };
+		96F26EB71AD4552D0049B90E /* MySignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySignupViewController.swift; sourceTree = "<group>"; };
+		96F26EB91AD475A40049B90E /* cancel-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,12 +185,19 @@
 				9644BD551AD1D62B00613304 /* SystemConfiguration.framework */,
 				9644BD491AD1D33A00613304 /* Bolts.framework */,
 				9644BD471AD1D32600613304 /* Parse.framework */,
-				9644BD451AD0DF5C00613304 /* CreateGameController.swift */,
-				9644BD751AD240C500613304 /* DateUtils.swift */,
+				96F26EAF1AD44CBC0049B90E /* Chelsea-icon.png */,
+				96F26EB51AD4544F0049B90E /* logo3.png */,
+				96F26EB31AD453A70049B90E /* logo2.png */,
+				96F26EB11AD452570049B90E /* logo.png */,
+				96F26EB91AD475A40049B90E /* cancel-icon.png */,
 				9644BD6B1AD1F53700613304 /* StartingWhistle-Bridging-Header.h */,
+				9644BD751AD240C500613304 /* DateUtils.swift */,
+				9644BD451AD0DF5C00613304 /* CreateGameController.swift */,
 				9644BD3F1AD0B74900613304 /* ColViewCellControllerCollectionViewCell.swift */,
 				9644BD191ACAA88B00613304 /* AppDelegate.swift */,
 				9644BD1B1ACAA88B00613304 /* ViewController.swift */,
+				96F26EAD1AD444C80049B90E /* MyLoginViewController.swift */,
+				96F26EB71AD4552D0049B90E /* MySignupViewController.swift */,
 				9644BD3B1ACB481300613304 /* FreePlayerControllerViewController.swift */,
 				9644BD1D1ACAA88B00613304 /* Main.storyboard */,
 				9644BD771AD246F700613304 /* ProfileViewController.swift */,
@@ -302,10 +323,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F26EB61AD4544F0049B90E /* logo3.png in Resources */,
 				9644BD1F1ACAA88B00613304 /* Main.storyboard in Resources */,
 				9644BD241ACAA88B00613304 /* LaunchScreen.xib in Resources */,
+				96F26EB21AD452570049B90E /* logo.png in Resources */,
+				96F26EB41AD453A70049B90E /* logo2.png in Resources */,
 				9644BD731AD2406400613304 /* PopDateViewController.xib in Resources */,
 				9644BD211ACAA88B00613304 /* Images.xcassets in Resources */,
+				96F26EB01AD44CBC0049B90E /* Chelsea-icon.png in Resources */,
+				96F26EBA1AD475A40049B90E /* cancel-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +352,9 @@
 				9644BD401AD0B74900613304 /* ColViewCellControllerCollectionViewCell.swift in Sources */,
 				9644BD761AD240C500613304 /* DateUtils.swift in Sources */,
 				9644BD1C1ACAA88B00613304 /* ViewController.swift in Sources */,
+				96F26EB81AD4552D0049B90E /* MySignupViewController.swift in Sources */,
 				9644BD1A1ACAA88B00613304 /* AppDelegate.swift in Sources */,
+				96F26EAE1AD444C80049B90E /* MyLoginViewController.swift in Sources */,
 				9644BD711AD2406400613304 /* PopDatePicker.swift in Sources */,
 				9644BD461AD0DF5C00613304 /* CreateGameController.swift in Sources */,
 				9644BD781AD246F700613304 /* ProfileViewController.swift in Sources */,

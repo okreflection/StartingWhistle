@@ -7,21 +7,22 @@
 //
 
 import UIKit
-import Parse
-import ParseUI
 
-class ViewController: UIViewController, PFLogInViewControllerDelegate {
-    
-    var ok = false
+class ViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
         var currentUser = PFUser.currentUser()
+        
         if (currentUser == nil) {
-            var logInController = PFLogInViewController()
-            logInController.delegate = self
+            var logInController = self.storyboard?.instantiateViewControllerWithIdentifier("Login") as MyLoginViewController
+            
             self.presentViewController(logInController, animated:true, completion: nil)
+            
+        } else {
+            println(currentUser.description)
+
         }
         
     }
@@ -43,24 +44,5 @@ class ViewController: UIViewController, PFLogInViewControllerDelegate {
         self.navigationController?.pushViewController(freePlayer, animated: true)
     }
     
-    func logInViewController(controller: PFLogInViewController, didLogInUser user: PFUser!) -> Void {
-        print("loggedin")
-        self.dismissViewControllerAnimated(true, completion: nil)
-    }
-    
-    func logInViewControllerDidCancelLogIn(controller: PFLogInViewController) -> Void {
-        print("cancelled")
-        self.dismissViewControllerAnimated(true, completion: nil)
-//        self.navigationController?.popViewControllerAnimated(true)
-    }
-    
-    func signUpViewController(signUpController: PFSignUpViewController, didSignUpUser user: PFUser) -> Void {
-        self.dismissViewControllerAnimated(true, completion: nil)
-    }
-    
-    func signUpViewControllerDidCancelSignUp(signUpController: PFSignUpViewController) -> Void {
-        self.dismissViewControllerAnimated(true, completion: nil)
-    }
-   
 }
 

@@ -22,79 +22,77 @@ class CreateGameController: UITableViewController, UITextFieldDelegate {
     
     @IBOutlet weak var dateTextF: UITextField!
 
+    @IBOutlet var tableview: UITableView!
+    
+    @IBOutlet weak var dayofweekLabel: UILabel!
+    
+    var datepicker = UIDatePicker()
+    var timepicker = UIDatePicker()
+    var timepicker2 = UIDatePicker()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.keyboardDismissMode = .OnDrag
+
+        //setup datepicker
+        datepicker.minimumDate = NSDate()
+        datepicker.datePickerMode = UIDatePickerMode.Date
+        datepicker.addTarget(self, action: Selector("datepickerChanged:"), forControlEvents: UIControlEvents.ValueChanged)
+        self.dateTextF.inputView = datepicker
         
-        popDatePicker = PopDatePicker(forTextField: dateTextF, type: "1")
-        dateTextF.delegate = self
+        //setup timepicker
+        timepicker.minimumDate = NSDate()
+        timepicker.datePickerMode = UIDatePickerMode.Time
+        timepicker.addTarget(self, action: Selector("timepickerChanged:"), forControlEvents: UIControlEvents.ValueChanged)
+        self.timeTextF.inputView = timepicker
         
-        popTimePicker = PopDatePicker(forTextField: timeTextF, type: "2")
-        timeTextF.delegate = self
-        
-        popTimePicker2 = PopDatePicker(forTextField: timeTextF2, type: "2")
-        timeTextF2.delegate = self
+        //setup datepicker2
+        timepicker2.minimumDate = NSDate()
+        timepicker2.datePickerMode = UIDatePickerMode.Time
+        timepicker2.addTarget(self, action: Selector("timepicker2Changed:"), forControlEvents: UIControlEvents.ValueChanged)
+        self.timeTextF2.inputView = timepicker2
 
     }
     
-    func resign() {
-        dateTextF.resignFirstResponder()
-        timeTextF.resignFirstResponder()
-        timeTextF2.resignFirstResponder()
+    @objc func datepickerChanged(datepicker:UIDatePicker) {
+        var dateFormatter = NSDateFormatter()
+        dateFormatter.dateStyle = .MediumStyle
+        dateFormatter.timeStyle = .NoStyle
         
+        var dateFormatter2 = NSDateFormatter()
+        dateFormatter2.dateStyle = .FullStyle
+        dateFormatter2.timeStyle = .NoStyle
+        
+        var strDate = dateFormatter.stringFromDate(datepicker.date)
+        dateTextF.text = strDate
+        
+        var dayofweek = dateFormatter2.stringFromDate(datepicker.date)
+        var myStringArr = dayofweek.componentsSeparatedByString(",")
+        
+        dayofweekLabel.text = myStringArr[0]
     }
     
-    func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
+    @objc func timepickerChanged(datepicker:UIDatePicker) {
+        var dateFormatter = NSDateFormatter()
         
-        if (textField === dateTextF) {
-            resign()
-            let formatter = NSDateFormatter()
-            formatter.dateStyle = .MediumStyle
-            formatter.timeStyle = .NoStyle
-            let initDate = formatter.dateFromString(dateTextF.text)
-            
-            popDatePicker!.pick(self, initDate:initDate, dataChanged: { (newDate : NSDate, forTextField : UITextField) -> () in
-                
-                // here we don't use self (no retain cycle)
-                forTextField.text = newDate.ToDateMediumString("1")
-                
-            })
-            return false
-        } else if (textField == timeTextF) {
-            
-            resign()
-            let formatter = NSDateFormatter()
-            formatter.dateStyle = .NoStyle
-            formatter.timeStyle = .MediumStyle
-            let initDate = formatter.dateFromString(timeTextF.text)
-            
-            popTimePicker!.pick(self, initDate:initDate, dataChanged: { (newDate : NSDate, forTextField : UITextField) -> () in
-                
-                // here we don't use self (no retain cycle)
-                forTextField.text = newDate.ToDateMediumString("2")
-                
-            })
-            return false
-            
-        } else if (textField == timeTextF2) {
-            
-            resign()
-            let formatter = NSDateFormatter()
-            formatter.dateStyle = .NoStyle
-            formatter.timeStyle = .MediumStyle
-            let initDate = formatter.dateFromString(timeTextF2.text)
-            
-            popTimePicker2!.pick(self, initDate:initDate, dataChanged: { (newDate : NSDate, forTextField : UITextField) -> () in
-                
-                // here we don't use self (no retain cycle)
-                forTextField.text = newDate.ToDateMediumString("2")
-                
-            })
-            return false
-            
-        } else {
-            return true
-        }
+        dateFormatter.timeStyle = .MediumStyle
+        dateFormatter.dateStyle = .NoStyle
+        
+        var strDate = dateFormatter.stringFromDate(datepicker.date)
+        timeTextF.text = strDate
     }
+    
+    @objc func timepicker2Changed(datepicker:UIDatePicker) {
+        var dateFormatter = NSDateFormatter()
+        
+        dateFormatter.timeStyle = .MediumStyle
+        dateFormatter.dateStyle = .NoStyle
+        
+        var strDate = dateFormatter.stringFromDate(datepicker.date)
+        timeTextF2.text = strDate
+    }
+    
+    
 
     @IBAction func doneButton(sender: UIButton) {
         var city = "Beijing"
