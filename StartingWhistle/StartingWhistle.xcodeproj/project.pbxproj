@@ -40,6 +40,7 @@
 		9644BD731AD2406400613304 /* PopDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9644BD701AD2406400613304 /* PopDateViewController.xib */; };
 		9644BD761AD240C500613304 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD751AD240C500613304 /* DateUtils.swift */; };
 		9644BD781AD246F700613304 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD771AD246F700613304 /* ProfileViewController.swift */; };
+		96595B4C1ADCD51C00E7A5C1 /* db.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96595B4B1ADCD51C00E7A5C1 /* db.swift */; };
 		96F26EAE1AD444C80049B90E /* MyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F26EAD1AD444C80049B90E /* MyLoginViewController.swift */; };
 		96F26EB01AD44CBC0049B90E /* Chelsea-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F26EAF1AD44CBC0049B90E /* Chelsea-icon.png */; };
 		96F26EB21AD452570049B90E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F26EB11AD452570049B90E /* logo.png */; };
@@ -98,6 +99,7 @@
 		9644BD701AD2406400613304 /* PopDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopDateViewController.xib; sourceTree = "<group>"; };
 		9644BD751AD240C500613304 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		9644BD771AD246F700613304 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		96595B4B1ADCD51C00E7A5C1 /* db.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db.swift; sourceTree = "<group>"; };
 		96F26EAD1AD444C80049B90E /* MyLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLoginViewController.swift; sourceTree = "<group>"; };
 		96F26EAF1AD44CBC0049B90E /* Chelsea-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chelsea-icon.png"; sourceTree = "<group>"; };
 		96F26EB11AD452570049B90E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				96F26EAD1AD444C80049B90E /* MyLoginViewController.swift */,
 				96F26EB71AD4552D0049B90E /* MySignupViewController.swift */,
 				9644BD3B1ACB481300613304 /* FreePlayerControllerViewController.swift */,
+				96595B4B1ADCD51C00E7A5C1 /* db.swift */,
 				9644BD1D1ACAA88B00613304 /* Main.storyboard */,
 				9644BD771AD246F700613304 /* ProfileViewController.swift */,
 				9644BD201ACAA88B00613304 /* Images.xcassets */,
@@ -350,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9644BD401AD0B74900613304 /* ColViewCellControllerCollectionViewCell.swift in Sources */,
+				96595B4C1ADCD51C00E7A5C1 /* db.swift in Sources */,
 				9644BD761AD240C500613304 /* DateUtils.swift in Sources */,
 				9644BD1C1ACAA88B00613304 /* ViewController.swift in Sources */,
 				96F26EB81AD4552D0049B90E /* MySignupViewController.swift in Sources */,

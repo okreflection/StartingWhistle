@@ -39,6 +39,7 @@ class MySignupViewController: UIViewController, UIPickerViewDataSource, UIPicker
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         scrollView.keyboardDismissMode = .OnDrag
         activeField = passwordField
         
@@ -123,8 +124,7 @@ class MySignupViewController: UIViewController, UIPickerViewDataSource, UIPicker
     @IBAction func cancelFired(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
-   
-    
+
     
     @IBAction func signupFired(sender: AnyObject) {
         
