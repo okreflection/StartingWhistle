@@ -19,5 +19,18 @@ class ColViewCellController: UICollectionViewCell {
     
     @IBOutlet weak var timeCell: UILabel!
     
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        self.timeCell.numberOfLines = 2;
+        self.timeCell.minimumScaleFactor = 0.1;
+        self.timeCell.adjustsFontSizeToFitWidth = true;
+        self.timeCell.backgroundColor = UIColor.redColor()
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+
     
 }
