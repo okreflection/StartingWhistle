@@ -269,6 +269,9 @@
                                 </cells>
                             </tableViewSection>
                             <tableViewSection headerTitle="Friends" id="dFS-bm-VKC">
+                                <cells/>
+                            </tableViewSection>
+                            <tableViewSection id="lqP-IR-pXx">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="67" id="Oeg-nZ-xUu">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -285,9 +288,6 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
-                            </tableViewSection>
-                            <tableViewSection id="lqP-IR-pXx">
-                                <cells/>
                             </tableViewSection>
                         </sections>
                         <connections>
