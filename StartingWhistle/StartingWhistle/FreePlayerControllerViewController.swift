@@ -10,15 +10,17 @@ import UIKit
 
 class FreePlayerControllerViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
-//    var nameData: [String] = ["菜鸟飞飞", "特洛伊", "皇家马德比", "a", "a", "a", "a", "a"]
-//    var locData: [String] = ["东单", "朝阳公园", "四德", "a", "a", "a", "a", "a"]
-//    var timeData: [String] = ["9:00-11:00", "15:00-17:00", "19:00-21:00", "a", "a", "a", "a", "a"]
-//    var imageData: [String] = [""]
+    //    var nameData: [String] = ["菜鸟飞飞", "特洛伊", "皇家马德比", "a", "a", "a", "a", "a"]
+    //    var locData: [String] = ["东单", "朝阳公园", "四德", "a", "a", "a", "a", "a"]
+    //    var timeData: [String] = ["9:00-11:00", "15:00-17:00", "19:00-21:00", "a", "a", "a", "a", "a"]
+    //    var imageData: [String] = [""]
+    
 
     var nameData = [String]()
     var locData = [String]()
     var timeData = [String]()
     var imageData = [String]()
+
     var screenSize: CGRect!
     var screenWidth: CGFloat!
     var screenHeight: CGFloat!
@@ -29,8 +31,8 @@ class FreePlayerControllerViewController: UIViewController, UICollectionViewData
     
     @IBOutlet weak var myCollectionView: UICollectionView!
     
+
     let sectionInsets = UIEdgeInsets(top: 40.0, left: 10.0, bottom: 0.0, right: 10.0)
-    
     
     override func viewDidLoad() {
         
@@ -69,7 +71,6 @@ class FreePlayerControllerViewController: UIViewController, UICollectionViewData
         
     }
 
-
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return nameData.count
     }
@@ -97,7 +98,6 @@ class FreePlayerControllerViewController: UIViewController, UICollectionViewData
         cell.playerIcon.clipsToBounds = true
         
         cell.playerIcon.layer.borderColor = newColor
-
         
         return cell
     }
@@ -130,21 +130,20 @@ class FreePlayerControllerViewController: UIViewController, UICollectionViewData
             return 0
     }
     
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    
     /*
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Get the new view controller using segue.destinationViewController.
+    // Pass the selected object to the new view controller.
     }
     */
-
+    
 }

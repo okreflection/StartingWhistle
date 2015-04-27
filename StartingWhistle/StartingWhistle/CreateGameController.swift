@@ -30,8 +30,11 @@ class CreateGameController: UITableViewController, UITextFieldDelegate {
     var timepicker = UIDatePicker()
     var timepicker2 = UIDatePicker()
     
+    var mydb : db?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        mydb = db()
         tableView.keyboardDismissMode = .OnDrag
 
         //setup datepicker
@@ -100,6 +103,9 @@ class CreateGameController: UITableViewController, UITextFieldDelegate {
         var dateStr = dateTextF.text
         var startTimeStr = timeTextF.text
         var endTimeStr = timeTextF2.text
+        
+        var user = PFUser.currentUser()
+        var pid = user["pid"] as Int
 
         var object = PFObject(className:"GameSchedule")
         object.setObject(city, forKey: "city")
@@ -107,7 +113,8 @@ class CreateGameController: UITableViewController, UITextFieldDelegate {
         object.setObject(dateStr, forKey: "date")
         object.setObject(startTimeStr, forKey: "startTime")
         object.setObject(endTimeStr, forKey: "endTime")
-        object.save()
+        object.setObject(pid, forKey: "pid")
+        mydb!.savePost(object)
         
     }
 

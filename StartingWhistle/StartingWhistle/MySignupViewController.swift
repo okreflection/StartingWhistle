@@ -35,11 +35,14 @@ class MySignupViewController: UIViewController, UIPickerViewDataSource, UIPicker
     var picker = UIPickerView()
     var datepicker = UIDatePicker()
     
+    var mydb : db?
+    
     var popDatePicker: PopDatePicker?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+        mydb = db()
         scrollView.keyboardDismissMode = .OnDrag
         activeField = passwordField
         
@@ -139,16 +142,10 @@ class MySignupViewController: UIViewController, UIPickerViewDataSource, UIPicker
         user["birthday"] = birthdayField.text
         user["skillLevel"] = skillField.text
         
-        user.signUpInBackgroundWithBlock {
-            (succeeded: Bool!, error: NSError!) -> Void in
-            if error == nil {
-                // Hooray! Let them use the app now.
-                self.dismissViewControllerAnimated(true, completion: nil)
-            } else {
-                println("signup failed")
-                // Show the errorString somewhere and let the user try again.
-            }
+        if (mydb!.signup(user)) {
+            self.dismissViewControllerAnimated(true, completion: nil)
         }
+        
         
     }
 }

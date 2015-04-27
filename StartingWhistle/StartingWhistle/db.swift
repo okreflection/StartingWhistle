@@ -36,5 +36,44 @@ public class db: NSObject {
         println(self.res.count)
         return self.res
     }
-   
+    
+    public func signup(user : PFUser) -> Bool {
+        
+        var query : PFQuery = PFUser.query()
+        query.orderByDescending("pid")
+        var lastUser = query.getFirstObject()
+        
+        var pid : Int = lastUser["pid"] as Int
+        pid = pid + 1
+        
+        user["pid"] = pid
+        
+//        user.signUpInBackgroundWithBlock {
+//            (succeeded: Bool!, error: NSError!) -> Void in
+//            if error == nil {
+//                // Hooray! Let them use the app now.
+//                self.dismissViewControllerAnimated(true, completion: nil)
+//            } else {
+//                println("signup failed")
+//                // Show the errorString somewhere and let the user try again.
+//            }
+//        }
+
+        
+        var success = user.signUp()
+        
+        if (success) {
+            return true
+        }
+        
+        println("signup failed")
+        return false
+        
+
+    }
+    
+    public func savePost(post : PFObject) -> Bool {
+        return post.save()
+    }
+    
 }

@@ -34,7 +34,6 @@ class ColViewCellController: UICollectionViewCell {
         self.muserIcon.layer.borderWidth = 3.0
         
         self.muserIcon.layer.borderColor = newColor
-        
         self.timeCell.numberOfLines = 2;
         self.timeCell.minimumScaleFactor = 0.1;
         self.timeCell.adjustsFontSizeToFitWidth = true;
@@ -44,5 +43,6 @@ class ColViewCellController: UICollectionViewCell {
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
+
     
 }
