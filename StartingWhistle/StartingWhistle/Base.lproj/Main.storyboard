@@ -74,6 +74,103 @@
             </objects>
             <point key="canvasLocation" x="2033.5" y="359.5"/>
         </scene>
+        
+        <!--Arena-->
+        <scene sceneID="cNi-fR-dML">
+            <objects>
+                <viewController storyboardIdentifier="FreePlayer" title="Arena" id="mKc-gn-D4V" customClass="FreePlayerControllerViewController" customModule="StartingWhistle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DRq-NS-09o"/>
+                        <viewControllerLayoutGuide type="bottom" id="8lJ-Pd-Omb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qtU-zM-tkg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="SFm-QC-fJD">
+                                <rect key="frame" x="0.0" y="37" width="375" height="630"/>
+                                <color key="backgroundColor" red="0.90196084980000002" green="0.96862751250000001" blue="0.97647064920000004" alpha="1" colorSpace="deviceRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mJF-6j-Wmb">
+                                    <size key="itemSize" width="374" height="227"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="Cell" reuseIdentifier="Cell" id="VLm-Gr-uRw" customClass="ColViewCellController" customModule="StartingWhistle" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="227"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Of0-bu-c1E">
+                                                    <rect key="frame" x="9" y="8" width="356" height="213"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qGC-CJ-kbd">
+                                                            <rect key="frame" x="0.0" y="0.0" width="356" height="156"/>
+                                                            <subviews>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lampard" translatesAutoresizingMaskIntoConstraints="NO" id="dy1-0z-txf">
+                                                                    <rect key="frame" x="61" y="24" width="111" height="111"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.19" colorSpace="calibratedWhite"/>
+                                                        </view>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wii-R0-2LA">
+                                                            <rect key="frame" x="5" y="155" width="237" height="35"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ch-BB-7MR">
+                                                            <rect key="frame" x="5" y="186" width="150" height="27"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.14000000000000001" colorSpace="calibratedRGB"/>
+                                                </view>
+                                                <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="number" translatesAutoresizingMaskIntoConstraints="NO" id="eJN-JF-uxa" userLabel="muserIcon">
+                                                    <rect key="frame" x="0.0" y="1" width="55" height="55"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <size key="customSize" width="374" height="227"/>
+                                        <connections>
+                                            <outlet property="locCell" destination="wii-R0-2LA" id="elC-M0-Tq3"/>
+                                            <outlet property="muserIcon" destination="eJN-JF-uxa" id="GuU-6T-b3n"/>
+                                            <outlet property="playerIcon" destination="dy1-0z-txf" id="tTq-sd-N5Y"/>
+                                            <outlet property="timeCell" destination="4ch-BB-7MR" id="anc-3P-tv3"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="mKc-gn-D4V" id="280-cd-pX7"/>
+                                    <outlet property="delegate" destination="mKc-gn-D4V" id="cte-vm-STG"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                    </view>
+                    <navigationItem key="navigationItem" title="Arena" id="SlC-AF-gXf">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="WNW-YA-xWJ">
+                            <connections>
+                                <segue destination="jow-yM-0BB" kind="show" id="4Wf-6o-LOd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="myCollectionView" destination="SFm-QC-fJD" id="jmB-OP-Sts"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XsR-kL-jM4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3189.5" y="359.5"/>
+        </scene>
+        
         <!--Create My Game-->
         <scene sceneID="H4m-0V-dyX">
             <objects>
