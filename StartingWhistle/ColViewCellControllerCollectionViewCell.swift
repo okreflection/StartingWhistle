@@ -10,8 +10,12 @@ import UIKit
 
 class ColViewCellController: UICollectionViewCell {
     
-    @IBOutlet weak var labelCell: UILabel!
-    @IBOutlet weak var nameCell: UILabel!
+    @IBOutlet weak var bgImg: UIImageView!
+    
+    
+    @IBOutlet weak var muserIcon: UIImageView!
+    
+    @IBOutlet weak var playerIcon: UIImageView!
     
     @IBOutlet weak var locCell: UILabel!
     
@@ -19,8 +23,17 @@ class ColViewCellController: UICollectionViewCell {
     
     @IBOutlet weak var timeCell: UILabel!
     
+    var newColor = UIColor.whiteColor().CGColor
+
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        self.muserIcon.frame = CGRectMake(0, 0, 100, 100)
+        
+        self.muserIcon.layer.borderWidth = 3.0
+        
+        self.muserIcon.layer.borderColor = newColor
         
         self.timeCell.numberOfLines = 2;
         self.timeCell.minimumScaleFactor = 0.1;

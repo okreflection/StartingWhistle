@@ -19,16 +19,34 @@ class FreePlayerControllerViewController: UIViewController, UICollectionViewData
     var locData = [String]()
     var timeData = [String]()
     var imageData = [String]()
+    var screenSize: CGRect!
+    var screenWidth: CGFloat!
+    var screenHeight: CGFloat!
+    
+    var newColor = UIColor.whiteColor().CGColor
     
     var mydb : db?
     
     @IBOutlet weak var myCollectionView: UICollectionView!
+    
+    let sectionInsets = UIEdgeInsets(top: 40.0, left: 10.0, bottom: 0.0, right: 10.0)
     
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        screenSize = UIScreen.mainScreen().bounds
+        screenWidth = screenSize.width
+        screenHeight = screenSize.height
+        
+        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
+        layout.sectionInset = UIEdgeInsets(top: 20, left: 0, bottom: 10, right: 0)
+        layout.itemSize = CGSize(width: screenWidth/3, height: screenWidth/3)
+        layout.minimumInteritemSpacing = 0
+        layout.minimumLineSpacing = 0
+        
         
         mydb = db()
         var currentUser = PFUser.currentUser()
@@ -59,13 +77,27 @@ class FreePlayerControllerViewController: UIViewController, UICollectionViewData
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         let cell: ColViewCellController = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as ColViewCellController
-        cell.nameCell.text = nameData[indexPath.row]
+//        cell.nameCell.text = nameData[indexPath.row]
         cell.locCell.text = locData[indexPath.row]
         cell.timeCell.text = timeData[indexPath.row]
         cell.timeCell.numberOfLines = 2;
         cell.timeCell.adjustsFontSizeToFitWidth = true
         cell.timeCell.minimumScaleFactor = 0.1
         
+        cell.muserIcon.layer.cornerRadius = cell.muserIcon.frame.size.width / 2;
+        
+        cell.muserIcon.layer.borderWidth = 3.0
+        cell.muserIcon.clipsToBounds = true
+
+        cell.muserIcon.layer.borderColor = newColor
+        
+        cell.playerIcon.layer.cornerRadius = cell.playerIcon.frame.size.width / 2;
+        
+        cell.playerIcon.layer.borderWidth = 3.0
+        cell.playerIcon.clipsToBounds = true
+        
+        cell.playerIcon.layer.borderColor = newColor
+
         
         return cell
     }
@@ -74,6 +106,29 @@ class FreePlayerControllerViewController: UIViewController, UICollectionViewData
         println("Cell \(indexPath.row) selected")
     }
     
+//    func collectionView(collectionView: UICollectionView!,
+//        layout collectionViewLayout: UICollectionViewLayout!,
+//        sizeForItemAtIndexPath indexPath: NSIndexPath!) -> CGSize {
+//            return CGSize(width: 375, height: 104)
+//    }
+//    
+//    func collectionView(collectionView: UICollectionView!,
+//        layout collectionViewLayout: UICollectionViewLayout!,
+//        insetForSectionAtIndex section: Int) -> UIEdgeInsets {
+//            return sectionInsets
+//    }
+    
+//    func collectionView(collectionView: UICollectionView!,
+//        layout collectionViewLayout: UICollectionViewLayout!,
+//        minimumInteritemSpacingForSectionAtIndex section: Int) -> CGFloat {
+//            return 30
+//    }
+//    
+    func collectionView(collectionView: UICollectionView!,
+        layout collectionViewLayout: UICollectionViewLayout!,
+        minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
+            return 0
+    }
     
     
     override func didReceiveMemoryWarning() {
