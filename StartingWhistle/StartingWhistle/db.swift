@@ -9,57 +9,49 @@
 import UIKit
 
 public class db: NSObject {
-    
-    var res = [[String]]()
-    
-    public func getPosts (cityName : String) -> [[String]] {
-        
+    func getGames (cityName: String) -> [Game] {
+        var ret = [Game]()
+        var pids = [Int]()
+        var users = [User]()
         var query = PFQuery(className:"GameSchedule")
         query.whereKey("city", equalTo:cityName)
-        var objects = query.findObjects()
+        var objects = query.findObjects() as! [PFObject]
         for object in objects {
-            var arr = [String]()
-            var pid = object["pid"] as Int
+            var game = Game()
+            game.setLoc(object["location"] as! String, lat: object["latitude"] as! Double, long: object["longitude"] as! Double, addr:object["address"] as! String)
+            game.setStart(object["startTime"]as! String)
+            game.setEnd(object["endTime"]as! String)
+            game.setDate(object["date"]as! String)
             
-            var query2 : PFQuery = PFUser.query()
-            query2.whereKey("pid", equalTo: pid)
-            var objects2 = query2.findObjects()
+            //get info for each user in the game
+            pids = object["pids"] as! [Int]
+            game.setPids(pids)
             
-            println(objects2)
-            arr.append(objects2[0]["firstName"] as String)
-            arr.append(object["location"] as String)
-            arr.append(object["startTime"] as String)
-            arr.append(object["endTime"] as String)
-            res.append(arr)
+            ret.append(game)
         }
-        println("rescout")
-        println(self.res.count)
-        return self.res
+        
+        println("retcout")
+        println(ret.count)
+       
+        return ret
     }
     
-    public func signup(user : PFUser) -> Bool {
+    func signup(user : PFUser) -> Bool {
         
-        var query : PFQuery = PFUser.query()
-        query.orderByDescending("pid")
-        var lastUser = query.getFirstObject()
+        var query : PFQuery = PFUser.query()!
         
-        var pid : Int = lastUser["pid"] as Int
-        pid = pid + 1
-        
-        user["pid"] = pid
-        
-//        user.signUpInBackgroundWithBlock {
-//            (succeeded: Bool!, error: NSError!) -> Void in
-//            if error == nil {
-//                // Hooray! Let them use the app now.
-//                self.dismissViewControllerAnimated(true, completion: nil)
-//            } else {
-//                println("signup failed")
-//                // Show the errorString somewhere and let the user try again.
-//            }
-//        }
+        if query.countObjects() == 0 {
+            user["pid"] = 0
+            
+        } else {
+            query.orderByDescending("pid")
+            var lastUser = query.getFirstObject()!
+            var s_pid = lastUser["pid"] as! String
+            var pid_raw = s_pid.toInt()
+            var pid = pid_raw! + 1
+            user["pid"] = pid
+        }
 
-        
         var success = user.signUp()
         
         if (success) {

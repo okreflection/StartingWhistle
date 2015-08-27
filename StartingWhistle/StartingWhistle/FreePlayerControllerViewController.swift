@@ -9,28 +9,21 @@
 import UIKit
 
 class FreePlayerControllerViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
-    
-    //    var nameData: [String] = ["菜鸟飞飞", "特洛伊", "皇家马德比", "a", "a", "a", "a", "a"]
-    //    var locData: [String] = ["东单", "朝阳公园", "四德", "a", "a", "a", "a", "a"]
-    //    var timeData: [String] = ["9:00-11:00", "15:00-17:00", "19:00-21:00", "a", "a", "a", "a", "a"]
-    //    var imageData: [String] = [""]
-    
 
-    var nameData = [String]()
-    var locData = [String]()
-    var timeData = [String]()
-    var imageData = [String]()
-
+    var gameList = [Game]()
+    
+    var userNames = [[String]]()
+    var pidsArr = [[Int]]()
+    
     var screenSize: CGRect!
     var screenWidth: CGFloat!
     var screenHeight: CGFloat!
     
-    var newColor = UIColor.whiteColor().CGColor
-    
     var mydb : db?
     
-    @IBOutlet weak var myCollectionView: UICollectionView!
+    var count : Int!
     
+    @IBOutlet weak var myCollectionView: UICollectionView!
 
     let sectionInsets = UIEdgeInsets(top: 40.0, left: 10.0, bottom: 0.0, right: 10.0)
     
@@ -51,59 +44,100 @@ class FreePlayerControllerViewController: UIViewController, UICollectionViewData
         
         
         mydb = db()
-        var currentUser = PFUser.currentUser()
+        var currentUser = PFUser.currentUser()!
         
-        var table = mydb!.getPosts(currentUser["city"] as String)
+        gameList = mydb!.getGames(currentUser["city"] as! String)
         
-        if table.count != 0 {
-            for list in table {
-                nameData.append(list[0] + "'s team")
-                locData.append(list[1])
-                timeData.append(list[2] + " - " + list[3])
-            }
+        for game in gameList {
+            pidsArr.append(game.getPids())
         }
+
+        println("gamelist count: ", gameList.count)
         
-        println(table.count)
+        count = gameList.count
         
         dispatch_async(dispatch_get_main_queue(), { () -> Void in
             self.myCollectionView.reloadData()
         })
         
     }
+    
 
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return nameData.count
+        println("gamelist2 count: ", gameList.count)
+        return count!
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
-        let cell: ColViewCellController = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as ColViewCellController
-//        cell.nameCell.text = nameData[indexPath.row]
-        cell.locCell.text = locData[indexPath.row]
-        cell.timeCell.text = timeData[indexPath.row]
-        cell.timeCell.numberOfLines = 2;
-        cell.timeCell.adjustsFontSizeToFitWidth = true
-        cell.timeCell.minimumScaleFactor = 0.1
+        let cell: ColViewCellController = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! ColViewCellController
         
-        cell.muserIcon.layer.cornerRadius = cell.muserIcon.frame.size.width / 2;
+        var game = gameList[indexPath.row]
         
-        cell.muserIcon.layer.borderWidth = 3.0
-        cell.muserIcon.clipsToBounds = true
-
-        cell.muserIcon.layer.borderColor = newColor
+        var thisgamePids = pidsArr[indexPath.row]
         
-        cell.playerIcon.layer.cornerRadius = cell.playerIcon.frame.size.width / 2;
+        if (cell.contentViewController == nil) {
+            
+            let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            
+            var newController:CellViewController = storyboard.instantiateViewControllerWithIdentifier("CellViewController") as! CellViewController
+            
+            newController.viewDidAppear(false, pids:thisgamePids)
+            
+            cell.contentViewController = newController
+            cell.contentView.addSubview(cell.contentViewController.view)
+            
+        }
+      
+        cell.contentViewController.locCell.text = game.getLoc()
+        cell.contentViewController.timeCell.text = game.getTime()
+        cell.contentViewController.dateCell.text = game.getDate()
+        cell.contentViewController.partiCell.text = "Participants: " + String(game.getPids().count)
         
-        cell.playerIcon.layer.borderWidth = 3.0
-        cell.playerIcon.clipsToBounds = true
+        var time = gameList[indexPath.row].getStartTime()
+        var fulltimeArr = split(time) {$0 == " "}
+        var hourMin  = fulltimeArr[0]
+        var ampm = fulltimeArr[1]
+        var hourMinArr = split(hourMin) {$0 == ":"}
+        var hr = hourMinArr[0]
+        var min = hourMinArr[1]
         
-        cell.playerIcon.layer.borderColor = newColor
+        cell.contentViewController.partiCell.textColor = UIColor.blackColor()
+        cell.contentViewController.dateCell.textColor = UIColor.blackColor()
+        cell.contentViewController.timeCell.textColor = UIColor.blackColor()
+        cell.contentViewController.locCell.textColor = UIColor.blackColor()
+        cell.contentViewController.nameCell.textColor = UIColor.blackColor()
+        cell.contentViewController.ratingCell.textColor = UIColor.blackColor()
+        
+        if (hr.toInt() >= 6 && hr.toInt() <= 8 && ampm == "AM") {
+            cell.contentViewController.backImg.image = UIImage(named: "morning.jpg")
+        } else if (hr.toInt() >= 9 && hr.toInt() <= 11 && ampm == "AM" || hr.toInt() >= 12 && hr.toInt() <= 2 && ampm == "PM") {
+            cell.contentViewController.backImg.image = UIImage(named: "noon.jpg")
+        } else if (hr.toInt() >= 3 && hr.toInt() <= 4 && ampm == "PM") {
+            cell.contentViewController.backImg.image = UIImage(named: "earlyafternoon.jpg")
+        } else if (hr.toInt() >= 5 && hr.toInt() <= 6 && ampm == "PM") {
+            cell.contentViewController.backImg.image = UIImage(named: "lateafternoon.jpg")
+        } else {
+            cell.contentViewController.backImg.image = UIImage(named: "night.jpg")
+            cell.contentViewController.partiCell.textColor = UIColor.whiteColor()
+            cell.contentViewController.dateCell.textColor = UIColor.whiteColor()
+            cell.contentViewController.timeCell.textColor = UIColor.whiteColor()
+            cell.contentViewController.locCell.textColor = UIColor.whiteColor()
+            cell.contentViewController.nameCell.textColor = UIColor.whiteColor()
+            cell.contentViewController.ratingCell.textColor = UIColor.whiteColor()
+        }
         
         return cell
     }
     
+    
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         println("Cell \(indexPath.row) selected")
+        var currentGame = CurrentGame.sharedInstance
+        currentGame.setGame(gameList[indexPath.row])
+        let gamePage = self.storyboard?.instantiateViewControllerWithIdentifier("GameViewController") as! GameViewController
+        self.navigationController?.pushViewController(gamePage, animated: true)
+        
     }
     
 //    func collectionView(collectionView: UICollectionView!,
@@ -123,7 +157,9 @@ class FreePlayerControllerViewController: UIViewController, UICollectionViewData
 //        minimumInteritemSpacingForSectionAtIndex section: Int) -> CGFloat {
 //            return 30
 //    }
-//    
+//  
+    
+    
     func collectionView(collectionView: UICollectionView!,
         layout collectionViewLayout: UICollectionViewLayout!,
         minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {

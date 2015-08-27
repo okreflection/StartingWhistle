@@ -56,6 +56,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "StartingWhistle.FreePlayerControllerViewController.__deallocating_deinit"
                   moduleName = "StartingWhistle"
+                  usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zixiangzhu/Documents/StartingWhistle/StartingWhistle/StartingWhistle/FreePlayerControllerViewController.swift"
                   timestampString = "450673479.192637"
                   startingColumnNumber = "9223372036854775807"
@@ -70,6 +71,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "@objc StartingWhistle.FreePlayerControllerViewController.__ivar_destroyer"
                   moduleName = "StartingWhistle"
+                  usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zixiangzhu/Documents/StartingWhistle/StartingWhistle/StartingWhistle/FreePlayerControllerViewController.swift"
                   timestampString = "450673479.274044"
                   startingColumnNumber = "9223372036854775807"
@@ -88,61 +90,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "StartingWhistle/db.swift"
-            timestampString = "450685449.756487"
+            timestampString = "462225823.215653"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "signup(_:)"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ColViewCellControllerCollectionViewCell.swift"
-            timestampString = "451841545.036381"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "init(frame:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ColViewCellControllerCollectionViewCell.swift"
-            timestampString = "451841545.036381"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "init(frame:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ColViewCellControllerCollectionViewCell.swift"
-            timestampString = "451841545.036381"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "ColViewCellController"
-            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -164,6 +118,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "StartingWhistle.ColViewCellController.__deallocating_deinit"
                   moduleName = "StartingWhistle"
+                  usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zixiangzhu/Documents/StartingWhistle/StartingWhistle/ColViewCellControllerCollectionViewCell.swift"
                   timestampString = "451842261.347011"
                   startingColumnNumber = "9223372036854775807"
@@ -178,6 +133,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "StartingWhistle.ColViewCellController.init (StartingWhistle.ColViewCellController.Type)() -&gt; StartingWhistle.ColViewCellController"
                   moduleName = "StartingWhistle"
+                  usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zixiangzhu/Documents/StartingWhistle/StartingWhistle/ColViewCellControllerCollectionViewCell.swift"
                   timestampString = "451842261.350665"
                   startingColumnNumber = "9223372036854775807"
@@ -187,6 +143,116 @@
                   offsetFromSymbolStart = "12">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StartingWhistle/ProfilePhotoViewController.swift"
+            timestampString = "453009280.352174"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StartingWhistle/Game.swift"
+            timestampString = "453054520.841854"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "Game"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StartingWhistle/CellViewController.swift"
+            timestampString = "453400805.973025"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StartingWhistle/InfoBoardViewController.swift"
+            timestampString = "453752248.25293"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "InfoBoardViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StartingWhistle/InfoBoardViewController.swift"
+            timestampString = "453752425.823721"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StartingWhistle/AddressMapViewController.swift"
+            timestampString = "453851129.486347"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "searchBarSearchButtonClicked(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StartingWhistle/MyLoginViewController.swift"
+            timestampString = "462251913.923981"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

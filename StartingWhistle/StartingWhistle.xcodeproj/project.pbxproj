@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9608A2661AFC3C94005D55A0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9608A2651AFC3C94005D55A0 /* User.swift */; };
+		9609601B1AEEC64100C9F199 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609601A1AEEC64100C9F199 /* CellView.swift */; };
+		9609601D1AEECDC500C9F199 /* hazard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9609601C1AEECDC500C9F199 /* hazard.jpg */; };
+		9609601F1AEECDDA00C9F199 /* lampard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9609601E1AEECDDA00C9F199 /* lampard.jpg */; };
+		960960211AEF3ECC00C9F199 /* BlurImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960960201AEF3ECC00C9F199 /* BlurImageView.swift */; };
+		960960231AEF493600C9F199 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960960221AEF493600C9F199 /* BlurView.swift */; };
 		96322BD91AD3A09500D3DBE3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96322BD81AD3A09500D3DBE3 /* Social.framework */; };
 		96322BDB1AD3A0D700D3DBE3 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96322BDA1AD3A0D700D3DBE3 /* Accounts.framework */; };
 		96322BDD1AD3A17B00D3DBE3 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96322BDC1AD3A17B00D3DBE3 /* ParseFacebookUtils.framework */; };
 		96322BDF1AD3A18200D3DBE3 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96322BDE1AD3A18200D3DBE3 /* ParseFacebookUtilsV4.framework */; };
+		963EE6901AF7C1E800A02674 /* CellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963EE68F1AF7C1E800A02674 /* CellViewController.swift */; };
 		9644BD1A1ACAA88B00613304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD191ACAA88B00613304 /* AppDelegate.swift */; };
 		9644BD1C1ACAA88B00613304 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD1B1ACAA88B00613304 /* ViewController.swift */; };
 		9644BD1F1ACAA88B00613304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9644BD1D1ACAA88B00613304 /* Main.storyboard */; };
@@ -18,8 +25,6 @@
 		9644BD241ACAA88B00613304 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9644BD221ACAA88B00613304 /* LaunchScreen.xib */; };
 		9644BD301ACAA88B00613304 /* StartingWhistleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD2F1ACAA88B00613304 /* StartingWhistleTests.swift */; };
 		9644BD3C1ACB481300613304 /* FreePlayerControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD3B1ACB481300613304 /* FreePlayerControllerViewController.swift */; };
-		9644BD401AD0B74900613304 /* ColViewCellControllerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD3F1AD0B74900613304 /* ColViewCellControllerCollectionViewCell.swift */; };
-		9644BD461AD0DF5C00613304 /* CreateGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD451AD0DF5C00613304 /* CreateGameController.swift */; };
 		9644BD481AD1D32600613304 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9644BD471AD1D32600613304 /* Parse.framework */; };
 		9644BD4A1AD1D33A00613304 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9644BD491AD1D33A00613304 /* Bolts.framework */; };
 		9644BD561AD1D62B00613304 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9644BD4B1AD1D62B00613304 /* AudioToolbox.framework */; };
@@ -35,18 +40,31 @@
 		9644BD601AD1D62B00613304 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9644BD551AD1D62B00613304 /* SystemConfiguration.framework */; };
 		9644BD621AD1D8CA00613304 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9644BD611AD1D8CA00613304 /* ParseCrashReporting.framework */; };
 		9644BD681AD1D8E600613304 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9644BD671AD1D8E600613304 /* ParseUI.framework */; };
-		9644BD711AD2406400613304 /* PopDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD6E1AD2406400613304 /* PopDatePicker.swift */; };
-		9644BD721AD2406400613304 /* PopDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD6F1AD2406400613304 /* PopDateViewController.swift */; };
-		9644BD731AD2406400613304 /* PopDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9644BD701AD2406400613304 /* PopDateViewController.xib */; };
 		9644BD761AD240C500613304 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD751AD240C500613304 /* DateUtils.swift */; };
 		9644BD781AD246F700613304 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644BD771AD246F700613304 /* ProfileViewController.swift */; };
+		965F2FD51B066971009C58B5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965F2FD41B066971009C58B5 /* GameViewController.swift */; };
+		96A6C0901B0B9C4D009BEF6B /* InfoBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A6C08F1B0B9C4D009BEF6B /* InfoBoardViewController.swift */; };
+		96A6C0921B0BB867009BEF6B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A6C0911B0BB867009BEF6B /* MapViewController.swift */; };
+		96A6C0981B0D105C009BEF6B /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A6C0971B0D105C009BEF6B /* UserSingleton.swift */; };
+		96A6C09A1B0D1A17009BEF6B /* AddressMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A6C0991B0D1A17009BEF6B /* AddressMapViewController.swift */; };
 		96B1C3F21AEE94B30085DC55 /* db.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B1C3F11AEE94B30085DC55 /* db.swift */; };
-		96F26EAE1AD444C80049B90E /* MyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F26EAD1AD444C80049B90E /* MyLoginViewController.swift */; };
+		96B739E31B8D5DD10037FCE6 /* FindGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B739E21B8D5DD10037FCE6 /* FindGameViewController.swift */; };
+		96B739E51B8D5DE70037FCE6 /* ColViewCellControllerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B739E41B8D5DE70037FCE6 /* ColViewCellControllerCollectionViewCell.swift */; };
+		96B739E81B8D5ED10037FCE6 /* MyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B739E71B8D5ED10037FCE6 /* MyLoginViewController.swift */; };
+		96B739EA1B8D67C80037FCE6 /* MySignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B739E91B8D67C80037FCE6 /* MySignupViewController.swift */; };
+		96BF829B1AF80655003E24AE /* jersey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96BF829A1AF80655003E24AE /* jersey.jpg */; };
+		96BF829D1AFBD106003E24AE /* noon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BF829C1AFBD106003E24AE /* noon.png */; };
+		96BF829F1AFBD10E003E24AE /* earlyafternoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96BF829E1AFBD10E003E24AE /* earlyafternoon.jpg */; };
+		96BF82A11AFBD115003E24AE /* morning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96BF82A01AFBD115003E24AE /* morning.jpg */; };
+		96BF82A31AFBD11D003E24AE /* lateafternoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96BF82A21AFBD11D003E24AE /* lateafternoon.jpg */; };
+		96BF82A51AFBD122003E24AE /* night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96BF82A41AFBD122003E24AE /* night.jpg */; };
+		96EFE5991B010B31004FF6CB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EFE5981B010B31004FF6CB /* Game.swift */; };
+		96EFE59B1B012A1B004FF6CB /* CurrentGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EFE59A1B012A1B004FF6CB /* CurrentGame.swift */; };
 		96F26EB01AD44CBC0049B90E /* Chelsea-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F26EAF1AD44CBC0049B90E /* Chelsea-icon.png */; };
 		96F26EB21AD452570049B90E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F26EB11AD452570049B90E /* logo.png */; };
 		96F26EB41AD453A70049B90E /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F26EB31AD453A70049B90E /* logo2.png */; };
 		96F26EB61AD4544F0049B90E /* logo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F26EB51AD4544F0049B90E /* logo3.png */; };
-		96F26EB81AD4552D0049B90E /* MySignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F26EB71AD4552D0049B90E /* MySignupViewController.swift */; };
+		96F26EB81AD4552D0049B90E /* ConfigureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F26EB71AD4552D0049B90E /* ConfigureViewController.swift */; };
 		96F26EBA1AD475A40049B90E /* cancel-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F26EB91AD475A40049B90E /* cancel-icon.png */; };
 /* End PBXBuildFile section */
 
@@ -61,10 +79,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9608A2651AFC3C94005D55A0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9609601A1AEEC64100C9F199 /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		9609601C1AEECDC500C9F199 /* hazard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hazard.jpg; sourceTree = "<group>"; };
+		9609601E1AEECDDA00C9F199 /* lampard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lampard.jpg; sourceTree = "<group>"; };
+		960960201AEF3ECC00C9F199 /* BlurImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurImageView.swift; sourceTree = "<group>"; };
+		960960221AEF493600C9F199 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		96322BD81AD3A09500D3DBE3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		96322BDA1AD3A0D700D3DBE3 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		96322BDC1AD3A17B00D3DBE3 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../parse-library/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
 		96322BDE1AD3A18200D3DBE3 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "../parse-library/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		963EE68F1AF7C1E800A02674 /* CellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellViewController.swift; sourceTree = "<group>"; };
 		9644BD141ACAA88B00613304 /* StartingWhistle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartingWhistle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9644BD181ACAA88B00613304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9644BD191ACAA88B00613304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,8 +101,6 @@
 		9644BD2E1ACAA88B00613304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9644BD2F1ACAA88B00613304 /* StartingWhistleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingWhistleTests.swift; sourceTree = "<group>"; };
 		9644BD3B1ACB481300613304 /* FreePlayerControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreePlayerControllerViewController.swift; sourceTree = "<group>"; };
-		9644BD3F1AD0B74900613304 /* ColViewCellControllerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColViewCellControllerCollectionViewCell.swift; path = ../ColViewCellControllerCollectionViewCell.swift; sourceTree = "<group>"; };
-		9644BD451AD0DF5C00613304 /* CreateGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGameController.swift; sourceTree = "<group>"; };
 		9644BD471AD1D32600613304 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
 		9644BD491AD1D33A00613304 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Bolts.framework; sourceTree = "<group>"; };
 		9644BD4B1AD1D62B00613304 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -94,18 +117,32 @@
 		9644BD611AD1D8CA00613304 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = ../ParseCrashReporting.framework; sourceTree = "<group>"; };
 		9644BD671AD1D8E600613304 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = ../ParseUI.framework; sourceTree = "<group>"; };
 		9644BD6B1AD1F53700613304 /* StartingWhistle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StartingWhistle-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		9644BD6E1AD2406400613304 /* PopDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDatePicker.swift; sourceTree = "<group>"; };
-		9644BD6F1AD2406400613304 /* PopDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDateViewController.swift; sourceTree = "<group>"; };
-		9644BD701AD2406400613304 /* PopDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopDateViewController.xib; sourceTree = "<group>"; };
 		9644BD751AD240C500613304 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		9644BD771AD246F700613304 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		965F2FD41B066971009C58B5 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		96A6C08F1B0B9C4D009BEF6B /* InfoBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoBoardViewController.swift; sourceTree = "<group>"; };
+		96A6C0911B0BB867009BEF6B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		96A6C0971B0D105C009BEF6B /* UserSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
+		96A6C0991B0D1A17009BEF6B /* AddressMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressMapViewController.swift; sourceTree = "<group>"; };
 		96B1C3F11AEE94B30085DC55 /* db.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = db.swift; sourceTree = "<group>"; };
-		96F26EAD1AD444C80049B90E /* MyLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLoginViewController.swift; sourceTree = "<group>"; };
+		96B739E21B8D5DD10037FCE6 /* FindGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindGameViewController.swift; sourceTree = "<group>"; };
+		96B739E41B8D5DE70037FCE6 /* ColViewCellControllerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColViewCellControllerCollectionViewCell.swift; sourceTree = "<group>"; };
+		96B739E61B8D5E050037FCE6 /* StartingWhistle-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "StartingWhistle-Bridging-Header.h"; path = "StartingWhistle/StartingWhistle-Bridging-Header.h"; sourceTree = "<group>"; };
+		96B739E71B8D5ED10037FCE6 /* MyLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLoginViewController.swift; sourceTree = "<group>"; };
+		96B739E91B8D67C80037FCE6 /* MySignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySignupViewController.swift; sourceTree = "<group>"; };
+		96BF829A1AF80655003E24AE /* jersey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jersey.jpg; sourceTree = "<group>"; };
+		96BF829C1AFBD106003E24AE /* noon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noon.png; sourceTree = "<group>"; };
+		96BF829E1AFBD10E003E24AE /* earlyafternoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earlyafternoon.jpg; sourceTree = "<group>"; };
+		96BF82A01AFBD115003E24AE /* morning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = morning.jpg; sourceTree = "<group>"; };
+		96BF82A21AFBD11D003E24AE /* lateafternoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lateafternoon.jpg; sourceTree = "<group>"; };
+		96BF82A41AFBD122003E24AE /* night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = night.jpg; sourceTree = "<group>"; };
+		96EFE5981B010B31004FF6CB /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		96EFE59A1B012A1B004FF6CB /* CurrentGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentGame.swift; sourceTree = "<group>"; };
 		96F26EAF1AD44CBC0049B90E /* Chelsea-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chelsea-icon.png"; sourceTree = "<group>"; };
 		96F26EB11AD452570049B90E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		96F26EB31AD453A70049B90E /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
 		96F26EB51AD4544F0049B90E /* logo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo3.png; sourceTree = "<group>"; };
-		96F26EB71AD4552D0049B90E /* MySignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySignupViewController.swift; sourceTree = "<group>"; };
+		96F26EB71AD4552D0049B90E /* ConfigureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureViewController.swift; sourceTree = "<group>"; };
 		96F26EB91AD475A40049B90E /* cancel-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +186,7 @@
 		9644BD0B1ACAA88B00613304 = {
 			isa = PBXGroup;
 			children = (
+				96B739E61B8D5E050037FCE6 /* StartingWhistle-Bridging-Header.h */,
 				96322BDE1AD3A18200D3DBE3 /* ParseFacebookUtilsV4.framework */,
 				96322BDC1AD3A17B00D3DBE3 /* ParseFacebookUtils.framework */,
 				96322BDA1AD3A0D700D3DBE3 /* Accounts.framework */,
@@ -171,7 +209,6 @@
 		9644BD161ACAA88B00613304 /* StartingWhistle */ = {
 			isa = PBXGroup;
 			children = (
-				9644BD741AD2407000613304 /* PopDatePicker */,
 				9644BD671AD1D8E600613304 /* ParseUI.framework */,
 				9644BD611AD1D8CA00613304 /* ParseCrashReporting.framework */,
 				9644BD4B1AD1D62B00613304 /* AudioToolbox.framework */,
@@ -193,16 +230,29 @@
 				96F26EB11AD452570049B90E /* logo.png */,
 				96F26EB91AD475A40049B90E /* cancel-icon.png */,
 				96B1C3F11AEE94B30085DC55 /* db.swift */,
+				96B739E21B8D5DD10037FCE6 /* FindGameViewController.swift */,
+				96F26EB71AD4552D0049B90E /* ConfigureViewController.swift */,
+				965F2FD41B066971009C58B5 /* GameViewController.swift */,
+				96A6C08F1B0B9C4D009BEF6B /* InfoBoardViewController.swift */,
 				9644BD6B1AD1F53700613304 /* StartingWhistle-Bridging-Header.h */,
+				96B739E41B8D5DE70037FCE6 /* ColViewCellControllerCollectionViewCell.swift */,
+				96B739E71B8D5ED10037FCE6 /* MyLoginViewController.swift */,
 				9644BD751AD240C500613304 /* DateUtils.swift */,
-				9644BD451AD0DF5C00613304 /* CreateGameController.swift */,
-				9644BD3F1AD0B74900613304 /* ColViewCellControllerCollectionViewCell.swift */,
 				9644BD191ACAA88B00613304 /* AppDelegate.swift */,
 				9644BD1B1ACAA88B00613304 /* ViewController.swift */,
-				96F26EAD1AD444C80049B90E /* MyLoginViewController.swift */,
-				96F26EB71AD4552D0049B90E /* MySignupViewController.swift */,
+				96B739E91B8D67C80037FCE6 /* MySignupViewController.swift */,
+				9608A2651AFC3C94005D55A0 /* User.swift */,
 				9644BD3B1ACB481300613304 /* FreePlayerControllerViewController.swift */,
+				96EFE59A1B012A1B004FF6CB /* CurrentGame.swift */,
+				96A6C0971B0D105C009BEF6B /* UserSingleton.swift */,
+				96EFE5981B010B31004FF6CB /* Game.swift */,
+				963EE68F1AF7C1E800A02674 /* CellViewController.swift */,
+				960960201AEF3ECC00C9F199 /* BlurImageView.swift */,
+				960960221AEF493600C9F199 /* BlurView.swift */,
 				9644BD1D1ACAA88B00613304 /* Main.storyboard */,
+				96A6C0991B0D1A17009BEF6B /* AddressMapViewController.swift */,
+				96A6C0911B0BB867009BEF6B /* MapViewController.swift */,
+				9609601A1AEEC64100C9F199 /* CellView.swift */,
 				9644BD771AD246F700613304 /* ProfileViewController.swift */,
 				9644BD201ACAA88B00613304 /* Images.xcassets */,
 				9644BD221ACAA88B00613304 /* LaunchScreen.xib */,
@@ -214,6 +264,14 @@
 		9644BD171ACAA88B00613304 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				96BF82A01AFBD115003E24AE /* morning.jpg */,
+				96BF829C1AFBD106003E24AE /* noon.png */,
+				96BF829E1AFBD10E003E24AE /* earlyafternoon.jpg */,
+				96BF82A21AFBD11D003E24AE /* lateafternoon.jpg */,
+				96BF82A41AFBD122003E24AE /* night.jpg */,
+				9609601E1AEECDDA00C9F199 /* lampard.jpg */,
+				9609601C1AEECDC500C9F199 /* hazard.jpg */,
+				96BF829A1AF80655003E24AE /* jersey.jpg */,
 				9644BD181ACAA88B00613304 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -234,16 +292,6 @@
 				9644BD2E1ACAA88B00613304 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9644BD741AD2407000613304 /* PopDatePicker */ = {
-			isa = PBXGroup;
-			children = (
-				9644BD6E1AD2406400613304 /* PopDatePicker.swift */,
-				9644BD6F1AD2406400613304 /* PopDateViewController.swift */,
-				9644BD701AD2406400613304 /* PopDateViewController.xib */,
-			);
-			name = PopDatePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,12 +375,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				96F26EB61AD4544F0049B90E /* logo3.png in Resources */,
+				9609601D1AEECDC500C9F199 /* hazard.jpg in Resources */,
+				96BF82A31AFBD11D003E24AE /* lateafternoon.jpg in Resources */,
+				96BF829F1AFBD10E003E24AE /* earlyafternoon.jpg in Resources */,
 				9644BD1F1ACAA88B00613304 /* Main.storyboard in Resources */,
 				9644BD241ACAA88B00613304 /* LaunchScreen.xib in Resources */,
 				96F26EB21AD452570049B90E /* logo.png in Resources */,
 				96F26EB41AD453A70049B90E /* logo2.png in Resources */,
-				9644BD731AD2406400613304 /* PopDateViewController.xib in Resources */,
+				9609601F1AEECDDA00C9F199 /* lampard.jpg in Resources */,
+				96BF829B1AF80655003E24AE /* jersey.jpg in Resources */,
+				96BF829D1AFBD106003E24AE /* noon.png in Resources */,
+				96BF82A11AFBD115003E24AE /* morning.jpg in Resources */,
 				9644BD211ACAA88B00613304 /* Images.xcassets in Resources */,
+				96BF82A51AFBD122003E24AE /* night.jpg in Resources */,
 				96F26EB01AD44CBC0049B90E /* Chelsea-icon.png in Resources */,
 				96F26EBA1AD475A40049B90E /* cancel-icon.png in Resources */,
 			);
@@ -352,18 +407,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9644BD401AD0B74900613304 /* ColViewCellControllerCollectionViewCell.swift in Sources */,
+				96B739E31B8D5DD10037FCE6 /* FindGameViewController.swift in Sources */,
+				96A6C0981B0D105C009BEF6B /* UserSingleton.swift in Sources */,
 				96B1C3F21AEE94B30085DC55 /* db.swift in Sources */,
+				960960231AEF493600C9F199 /* BlurView.swift in Sources */,
+				96A6C0921B0BB867009BEF6B /* MapViewController.swift in Sources */,
 				9644BD761AD240C500613304 /* DateUtils.swift in Sources */,
+				965F2FD51B066971009C58B5 /* GameViewController.swift in Sources */,
 				9644BD1C1ACAA88B00613304 /* ViewController.swift in Sources */,
-				96F26EB81AD4552D0049B90E /* MySignupViewController.swift in Sources */,
+				96B739EA1B8D67C80037FCE6 /* MySignupViewController.swift in Sources */,
+				96F26EB81AD4552D0049B90E /* ConfigureViewController.swift in Sources */,
 				9644BD1A1ACAA88B00613304 /* AppDelegate.swift in Sources */,
-				96F26EAE1AD444C80049B90E /* MyLoginViewController.swift in Sources */,
-				9644BD711AD2406400613304 /* PopDatePicker.swift in Sources */,
-				9644BD461AD0DF5C00613304 /* CreateGameController.swift in Sources */,
+				9608A2661AFC3C94005D55A0 /* User.swift in Sources */,
+				9609601B1AEEC64100C9F199 /* CellView.swift in Sources */,
+				96A6C09A1B0D1A17009BEF6B /* AddressMapViewController.swift in Sources */,
 				9644BD781AD246F700613304 /* ProfileViewController.swift in Sources */,
+				96B739E81B8D5ED10037FCE6 /* MyLoginViewController.swift in Sources */,
+				96EFE5991B010B31004FF6CB /* Game.swift in Sources */,
 				9644BD3C1ACB481300613304 /* FreePlayerControllerViewController.swift in Sources */,
-				9644BD721AD2406400613304 /* PopDateViewController.swift in Sources */,
+				96A6C0901B0B9C4D009BEF6B /* InfoBoardViewController.swift in Sources */,
+				96B739E51B8D5DE70037FCE6 /* ColViewCellControllerCollectionViewCell.swift in Sources */,
+				963EE6901AF7C1E800A02674 /* CellViewController.swift in Sources */,
+				96EFE59B1B012A1B004FF6CB /* CurrentGame.swift in Sources */,
+				960960211AEF3ECC00C9F199 /* BlurImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

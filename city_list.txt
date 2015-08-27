@@ -1,0 +1,662 @@
+1,Beijing,Municipality,none,Provincial-level (Municipality),01-10-1949
+2,Chongqing,Municipality,none,Provincial-level (Municipality),01-10-1949
+3,Shanghai,Municipality,none,Provincial-level (Municipality),01-10-1949
+4,Tianjin,Municipality,none,Provincial-level (Municipality),01-10-1949
+5,Hong Kong,SAR,none,Provincial-level (SAR),01-07-1997
+6,Macau,SAR,none,Provincial-level (SAR),20-12-1999
+7,Anqing,Anhui,same as city,Prefectural-level,12-04-1952
+8,Bengbu,Anhui,same as city,Prefectural-level,02-05-1952
+9,Bozhou,Anhui,same as city,Prefectural-level,11-03-1986
+10,Chaohu,Anhui,Hefei,County-level,25-11-1982
+11,Chizhou,Anhui,same as city,Prefectural-level,17-08-1988
+12,Chuzhou,Anhui,same as city,Prefectural-level,25-11-1982
+13,"Fuyang, Anhui",Anhui,same as city,Prefectural-level,19-12-1975
+14,Hefei,Anhui,same as city,Prefectural-level,01-10-1949
+15,Huaibei,Anhui,same as city,Prefectural-level,20-01-1977
+16,Huainan,Anhui,same as city,Prefectural-level,02-06-1952
+17,Huangshan,Anhui,same as city,Prefectural-level,27-01-1984
+18,Jieshou,Anhui,"Fuyang, Anhui",County-level,17-09-1953
+19,Lu'an,Anhui,same as city,Prefectural-level,23-09-1978
+20,Ma'anshan,Anhui,same as city,Prefectural-level,02-07-1956
+21,Mingguang,Anhui,Chuzhou,County-level,31-05-1994
+22,Ningguo,Anhui,Xuancheng,County-level,11-03-1997
+23,"Suzhou, Anhui",Anhui,same as city,Prefectural-level,17-09-1953
+24,Tianchang,Anhui,Chuzhou,County-level,18-09-1993
+25,Tongcheng,Anhui,Anqing,County-level,20-08-1996
+26,Tongling,Anhui,same as city,Prefectural-level,05-09-1958
+27,Wuhu,Anhui,same as city,Prefectural-level,01-10-1949
+28,Xuancheng,Anhui,same as city,Prefectural-level,10-06-1987
+29,Changle,Fujian,"Fuzhou, Fujian",County-level,18-02-1994
+30,Fu'an,Fujian,Ningde,County-level,13-11-1989
+31,Fuding,Fujian,Ningde,County-level,13-10-1995
+32,Fuqing,Fujian,"Fuzhou, Fujian",County-level,26-12-1990
+33,"Fuzhou, Fujian",Fujian,same as city,Prefectural-level,01-10-1949
+34,Jian'ou,Fujian,Nanping,County-level,20-10-1992
+35,"Jianyang, Fujian",Fujian,Nanping,County-level,04-03-1994
+36,Jinjiang,Fujian,Quanzhou,County-level,06-03-1992
+37,Longhai,Fujian,Zhangzhou,County-level,12-05-1993
+38,Longyan,Fujian,same as city,Prefectural-level,21-09-1981
+39,Nan'an,Fujian,Quanzhou,County-level,12-05-1993
+40,Nanping,Fujian,same as city,Prefectural-level,16-11-1956
+41,Ningde,Fujian,same as city,Prefectural-level,04-10-1988
+42,Putian,Fujian,same as city,Prefectural-level,09-09-1983
+43,Quanzhou,Fujian,same as city,Prefectural-level,01-11-1950
+44,Sanming,Fujian,same as city,Prefectural-level,26-05-1960
+45,Shaowu,Fujian,Nanping,County-level,17-08-1983
+46,Shishi,Fujian,Quanzhou,County-level,17-12-1987
+47,Wuyishan,Fujian,Nanping,County-level,21-08-1989
+48,Xiamen,Fujian,same as city,Prefectural-level,01-10-1949
+49,Yong'an,Fujian,Sanming,County-level,12-09-1984
+50,Zhangzhou,Fujian,same as city,Prefectural-level,01-11-1950
+51,Zhangping,Fujian,Longyan,County-level,15-08-1990
+52,Baiyin,Gansu,same as city,Prefectural-level,04-07-1958
+53,Dingxi,Gansu,same as city,Prefectural-level,04-04-2003
+54,Dunhuang,Gansu,Jiuquan,County-level,21-08-1987
+55,Hezuo,Gansu,Gannan,County-level,28-05-1996
+56,Jiayuguan,Gansu,same as city,Prefectural-level,19-07-1965
+57,Jinchang,Gansu,same as city,Prefectural-level,09-02-1981
+58,Jiuquan,Gansu,same as city,Prefectural-level,21-11-1958
+59,Lanzhou,Gansu,same as city,Prefectural-level,01-10-1949
+60,Linxia,Gansu,Linxia,County-level,05-02-1950
+61,Longnan,Gansu,same as city,Prefectural-level,11-01-2004
+62,Pingliang,Gansu,same as city,Prefectural-level,05-02-1950
+63,Qingyang,Gansu,same as city,Prefectural-level,22-06-2002
+64,Tianshui,Gansu,same as city,Prefectural-level,05-02-1950
+65,Wuwei,Gansu,same as city,Prefectural-level,17-12-1986
+66,Yumen,Gansu,Jiuquan,County-level,26-12-1955
+67,Zhangye,Gansu,same as city,Prefectural-level,14-05-1985
+68,Chaozhou,Guangdong,same as city,Prefectural-level,01-07-1953
+69,Conghua,Guangdong,Guangzhou,County-level,26-03-1994
+70,Dongguan,Guangdong,same as city,Prefectural-level,05-09-1985
+71,Enping,Guangdong,Jiangmen,County-level,28-02-1994
+72,Foshan,Guangdong,same as city,Prefectural-level,01-10-1949
+73,Gaoyao,Guangdong,Zhaoqing,County-level,28-09-1993
+74,Gaozhou,Guangdong,Maoming,County-level,08-06-1993
+75,Guangzhou,Guangdong,same as city,Prefectural-level,01-10-1949
+76,"Heshan, Guangdong",Guangdong,Jiangmen,County-level,08-11-1993
+77,Heyuan,Guangdong,same as city,Prefectural-level,07-01-1988
+78,Huazhou,Guangdong,Maoming,County-level,04-07-1994
+79,Huizhou,Guangdong,same as city,Prefectural-level,08-04-1958
+80,Jiangmen,Guangdong,same as city,Prefectural-level,01-10-1949
+81,Jieyang,Guangdong,same as city,Prefectural-level,07-12-1991
+82,Kaiping,Guangdong,Jiangmen,County-level,05-01-1993
+83,Lechang,Guangdong,Shaoguan,County-level,28-04-1994
+84,Leizhou,Guangdong,Zhanjiang,County-level,26-04-1994
+85,Lianjiang,Guangdong,Zhanjiang,County-level,10-12-1993
+86,Lianzhou,Guangdong,Qingyuan,County-level,22-04-1994
+87,Lufeng,Guangdong,Shanwei,County-level,19-01-1995
+88,Luoding,Guangdong,Yunfu,County-level,08-04-1993
+89,Maoming,Guangdong,same as city,Prefectural-level,22-03-1959
+90,Meizhou,Guangdong,same as city,Prefectural-level,30-12-1978
+91,Nanxiong,Guangdong,Shaoguan,County-level,17-06-1996
+92,Puning,Guangdong,Jieyang,County-level,06-04-1993
+93,Qingyuan,Guangdong,same as city,Prefectural-level,07-01-1988
+94,Shantou,Guangdong,same as city,Prefectural-level,01-10-1949
+95,Shanwei,Guangdong,same as city,Prefectural-level,07-01-1988
+96,Shaoguan,Guangdong,same as city,Prefectural-level,01-10-1949
+97,Shenzhen,Guangdong,same as city,Prefectural-level,05-03-1979
+98,Sihui,Guangdong,Zhaoqing,County-level,25-11-1993
+99,Taishan,Guangdong,Jiangmen,County-level,17-04-1992
+100,Wuchuan,Guangdong,Zhanjiang,County-level,26-05-1994
+101,Xingning,Guangdong,Meizhou,County-level,06-06-1994
+101,"Xinyi, Guangdong",Guangdong,Maoming,County-level,11-09-1995
+102,Yangchun,Guangdong,Yangjiang,County-level,05-05-1994
+103,Yangjiang,Guangdong,same as city,Prefectural-level,07-01-1988
+104,Yingde,Guangdong,Qingyuan,County-level,12-01-1994
+105,Yunfu,Guangdong,same as city,Prefectural-level,03-09-1992
+106,Zengcheng,Guangdong,Guangzhou,County-level,08-12-1993
+107,Zhanjiang,Guangdong,same as city,Prefectural-level,01-10-1949
+108,Zhaoqing,Guangdong,same as city,Prefectural-level,01-10-1949
+109,Zhongshan,Guangdong,same as city,Prefectural-level,22-12-1983
+110,Zhuhai,Guangdong,same as city,Prefectural-level,05-03-1979
+111,Baise,Guangxi,same as city,Prefectural-level,08-10-1983
+112,Beihai,Guangxi,same as city,Prefectural-level,01-08-1950
+113,Beiliu,Guangxi,"Yulin, Guangxi",County-level,18-04-1994
+114,Cenxi,Guangxi,Wuzhou,County-level,11-09-1995
+115,Chongzuo,Guangxi,same as city,Prefectural-level,23-12-2002
+116,Dongxing,Guangxi,Fangchenggang,County-level,29-04-1996
+117,Fangchenggang,Guangxi,same as city,Prefectural-level,23-05-1993
+118,Guigang,Guangxi,same as city,Prefectural-level,27-12-1988
+119,Guilin,Guangxi,same as city,Prefectural-level,01-10-1949
+120,Guiping,Guangxi,Guigang,County-level,18-05-1994
+121,Hechi,Guangxi,same as city,Prefectural-level,08-10-1983
+122,"Heshan, Guangxi",Guangxi,Laibin,County-level,29-06-1981
+123,Hezhou,Guangxi,same as city,Prefectural-level,27-02-1997
+124,Laibin,Guangxi,same as city,Prefectural-level,29-09-2002
+125,Liuzhou,Guangxi,same as city,Prefectural-level,01-10-1949
+126,Nanning,Guangxi,same as city,Prefectural-level,01-10-1949
+127,"Pingxiang, Guangxi",Guangxi,Chongzuo,County-level,16-11-1956
+128,Qinzhou,Guangxi,same as city,Prefectural-level,08-10-1983
+129,Wuzhou,Guangxi,same as city,Prefectural-level,01-10-1949
+130,"Yulin, Guangxi",Guangxi,same as city,Prefectural-level,08-10-1983
+131,Yizhou,Guangxi,Hechi,County-level,09-09-1993
+132,Anshun,Guizhou,same as city,Prefectural-level,29-05-1958
+133,Bijie,Guizhou,same as city,Prefectural-level,10-12-1993
+134,Chishui,Guizhou,Zunyi,County-level,03-02-1990
+135,Duyun,Guizhou,Qiannan,County-level,29-05-1958
+136,Fuquan,Guizhou,Qiannan,County-level,02-12-1996
+137,Guiyang,Guizhou,same as city,Prefectural-level,01-10-1949
+138,Kaili,Guizhou,Qiandongnan,County-level,19-08-1983
+139,Liupanshui,Guizhou,same as city,Prefectural-level,18-12-1978
+140,Qingzhen,Guizhou,Guiyang,County-level,06-11-1992
+141,Renhuai,Guizhou,Zunyi,County-level,30-11-1996
+142,Tongren,Guizhou,same as city,Prefectural-level,21-08-1987
+143,Xingyi,Guizhou,Qianxinan,County-level,06-11-1987
+144,Zunyi,Guizhou,same as city,Prefectural-level,01-01-1950
+145,Danzhou,Hainan,none,County-level,03-03-1993
+146,Dongfang,Hainan,none,County-level,12-03-1997
+147,Haikou,Hainan,same as city,Prefectural-level,01-05-1950
+148,Qionghai,Hainan,none,County-level,06-11-1992
+149,Sansha,Hainan,same as city,Prefectural-level,21-06-2012
+150,Sanya,Hainan,same as city,Prefectural-level,19-05-1984
+151,Wanning,Hainan,none,County-level,05-08-1996
+152,Wenchang,Hainan,none,County-level,07-11-1995
+153,Wuzhishan,Hainan,none,County-level,12-06-1986
+154,Anguo,Hebei,Baoding,County-level,06-05-1991
+155,Baoding,Hebei,same as city,Prefectural-level,01-10-1949
+156,Bazhou,Hebei,Langfang,County-level,06-11-1953
+157,Botou,Hebei,Cangzhou,County-level,01-10-1949
+158,Cangzhou,Hebei,same as city,Prefectural-level,09-07-1961
+159,Chengde,Hebei,same as city,Prefectural-level,01-10-1949
+160,Dingzhou,Hebei,Baoding,County-level,05-03-1986
+161,Gaobeidian,Hebei,Baoding,County-level,09-04-1993
+162,Gaocheng,Hebei,Shijiazhuang,County-level,02-07-1989
+163,Handan,Hebei,same as city,Prefectural-level,08-11-1952
+164,Hengshui,Hebei,same as city,Prefectural-level,30-01-1982
+165,Hejian,Hebei,Cangzhou,County-level,18-10-1990
+166,Huanghua,Hebei,Cangzhou,County-level,27-07-1989
+167,"Jinzhou, Hebei",Hebei,Shijiazhuang,County-level,30-11-1991
+168,Jizhou,Hebei,Hengshui,County-level,22-09-1993
+169,Langfang,Hebei,same as city,Prefectural-level,07-12-1981
+170,Luquan,Hebei,Shijiazhuang,County-level,18-05-1994
+171,Nangong,Hebei,Xingtai,County-level,05-03-1986
+172,Qian'an,Hebei,Tangshan,County-level,10-10-1996
+173,Qinhuangdao,Hebei,same as city,Prefectural-level,01-10-1949
+174,Renqiu,Hebei,Cangzhou,County-level,05-03-1986
+175,Shahe,Hebei,Xingtai,County-level,20-02-1987
+176,Sanhe,Hebei,Langfang,County-level,03-03-1993
+177,Shenzhou,Hebei,Hengshui,County-level,04-07-1994
+178,Shijiazhuang,Hebei,same as city,Prefectural-level,01-10-1949
+179,Tangshan,Hebei,same as city,Prefectural-level,01-10-1949
+180,Xinji,Hebei,Shijiazhuang,County-level,05-03-1986
+181,Wu'an,Hebei,Handan,County-level,01-09-1988
+182,Xingtai,Hebei,same as city,Prefectural-level,06-11-1953
+183,Xinle,Hebei,Shijiazhuang,County-level,08-10-1992
+184,Zhangjiakou,Hebei,same as city,Prefectural-level,01-10-1949
+185,Zhuozhou,Hebei,Baoding,County-level,24-09-1986
+186,Zunhua,Hebei,Tangshan,County-level,17-02-1992
+187,Anda,Heilongjiang,Suihua,County-level,26-05-1960
+188,Bei'an,Heilongjiang,Heihe,County-level,07-01-1960
+189,Daqing,Heilongjiang,same as city,Prefectural-level,14-12-1979
+190,Fujin,Heilongjiang,Jiamusi,County-level,30-08-1988
+191,Hailin,Heilongjiang,Mudanjiang,County-level,28-07-1992
+192,Hailun,Heilongjiang,Suihua,County-level,23-12-1989
+193,Harbin,Heilongjiang,same as city,Prefectural-level,01-10-1949
+194,Hegang,Heilongjiang,same as city,Prefectural-level,01-10-1949
+195,Heihe,Heilongjiang,same as city,Prefectural-level,15-11-1980
+196,Hulin,Heilongjiang,Jixi,County-level,11-10-1996
+197,Jiamusi,Heilongjiang,same as city,Prefectural-level,01-10-1949
+198,Jixi,Heilongjiang,same as city,Prefectural-level,18-12-1956
+199,Mishan,Heilongjiang,Jixi,County-level,17-11-1988
+200,Mudanjiang,Heilongjiang,same as city,Prefectural-level,01-10-1949
+201,Muling,Heilongjiang,Mudanjiang,County-level,07-03-1995
+202,Nehe,Heilongjiang,Qiqihar,County-level,02-09-1992
+203,Ning'an,Heilongjiang,Mudanjiang,County-level,12-02-1993
+204,Qiqihar,Heilongjiang,same as city,Prefectural-level,01-10-1949
+205,Qitaihe,Heilongjiang,same as city,Prefectural-level,01-04-1970
+206,Shangzhi,Heilongjiang,Harbin,County-level,14-09-1988
+207,Shuangcheng,Heilongjiang,Harbin,County-level,14-09-1988
+208,Shuangyashan,Heilongjiang,same as city,Prefectural-level,25-05-1956
+209,Suifenhe,Heilongjiang,Mudanjiang,County-level,15-08-1975
+210,Suihua,Heilongjiang,same as city,Prefectural-level,18-12-1982
+211,Tieli,Heilongjiang,"Yichun, Heilongjiang",County-level,13-09-1988
+212,Tongjiang,Heilongjiang,Jiamusi,County-level,24-02-1987
+213,Wuchang,Heilongjiang,Harbin,County-level,01-06-1993
+214,Wudalianchi,Heilongjiang,Heihe,County-level,08-10-1983
+215,"Yichun, Heilongjiang",Heilongjiang,same as city,Prefectural-level,26-07-1957
+216,Zhaodong,Heilongjiang,Suihua,County-level,08-09-1986
+217,Anyang,Henan,same as city,Prefectural-level,01-10-1949
+218,Changge,Henan,Xuchang,County-level,14-12-1993
+219,Dengfeng,Henan,Zhengzhou,County-level,30-05-1994
+220,Dengzhou,Henan,Nanyang,County-level,17-11-1988
+221,Gongyi,Henan,Zhengzhou,County-level,12-06-1991
+222,Hebi,Henan,same as city,Prefectural-level,27-06-1957
+223,Huixian,Henan,Xinxiang,County-level,11-10-1988
+224,Jiaozuo,Henan,same as city,Prefectural-level,09-07-1956
+225,Jiyuan,Henan,none,County-level,25-06-1988
+226,Kaifeng,Henan,same as city,Prefectural-level,01-10-1949
+227,Lingbao,Henan,Sanmenxia,County-level,12-05-1993
+228,Linzhou,Henan,Anyang,County-level,24-01-1994
+229,Luohe,Henan,same as city,Prefectural-level,01-10-1949
+230,Luoyang,Henan,same as city,Prefectural-level,01-10-1949
+231,Mengzhou,Henan,Jiaozuo,County-level,29-04-1996
+232,Nanyang,Henan,same as city,Prefectural-level,01-10-1949
+233,Pingdingshan,Henan,same as city,Prefectural-level,26-03-1957
+234,Puyang,Henan,same as city,Prefectural-level,01-09-1983
+235,Qinyang,Henan,Jiaozuo,County-level,27-09-1989
+236,Ruzhou,Henan,Pingdingshan,County-level,25-06-1988
+237,Sanmenxia,Henan,same as city,Prefectural-level,23-01-1957
+238,Shangqiu,Henan,same as city,Prefectural-level,03-05-1950
+239,Weihui,Henan,Xinxiang,County-level,08-10-1988
+240,"Wugang, Henan",Henan,Pingdingshan,County-level,04-09-1990
+241,Xiangcheng,Henan,Zhoukou,County-level,16-12-1993
+242,Xingyang,Henan,Zhengzhou,County-level,01-10-1949
+243,Xinmi,Henan,Zhengzhou,County-level,05-04-1994
+244,Xinxiang,Henan,same as city,Prefectural-level,01-10-1949
+245,Xinyang,Henan,same as city,Prefectural-level,05-04-1994
+246,Xinzheng,Henan,Zhengzhou,County-level,16-05-1994
+247,Xuchang,Henan,same as city,Prefectural-level,01-10-1949
+248,Yanshi,Henan,Luoyang,County-level,15-12-1993
+249,Yima,Henan,Sanmenxia,County-level,04-04-1981
+250,Yongcheng,Henan,Shangqiu,County-level,11-10-1996
+251,Yuzhou,Henan,Xuchang,County-level,25-06-1988
+252,Zhengzhou,Henan,same as city,Prefectural-level,01-10-1949
+253,Zhoukou,Henan,same as city,Prefectural-level,01-10-1949
+254,Zhumadian,Henan,same as city,Prefectural-level,01-10-1949
+255,Anlu,Hubei,Xiaogan,County-level,04-09-1987
+256,Chibi,Hubei,Xianning,County-level,27-05-1986
+257,Dangyang,Hubei,Yichang,County-level,22-10-1988
+258,Danjiangkou,Hubei,Shiyan,County-level,19-08-1983
+259,Daye,Hubei,Huangshi,County-level,18-02-1994
+260,Enshi,Hubei,Enshi,County-level,07-11-1981
+261,Ezhou,Hubei,same as city,Prefectural-level,19-08-1983
+262,Guangshui,Hubei,Suizhou,County-level,11-10-1988
+263,Hanchuan,Hubei,Xiaogan,County-level,12-03-1997
+264,Honghu,Hubei,Jingzhou,County-level,31-07-1987
+265,Huanggang,Hubei,same as city,Prefectural-level,26-12-1990
+266,Huangshi,Hubei,same as city,Prefectural-level,30-08-1950
+267,Jingmen,Hubei,same as city,Prefectural-level,16-11-1979
+268,Jingzhou,Hubei,same as city,Prefectural-level,29-09-1994
+269,Laohekou,Hubei,Xiangyang,County-level,01-08-1951
+270,Lichuan,Hubei,Enshi,County-level,27-05-1986
+271,Macheng,Hubei,Huanggang,County-level,27-05-1986
+272,Qianjiang,Hubei,none,County-level,25-05-1988
+273,Shennongjia,Hubei,none,County-level,28-05-1970
+274,Shishou,Hubei,Jingzhou,County-level,16-11-1979
+275,Shiyan,Hubei,same as city,Prefectural-level,24-11-1969
+276,Suizhou,Hubei,same as city,Prefectural-level,25-06-2000
+277,Songzi,Hubei,Jingzhou,County-level,29-12-1995
+278,Tianmen,Hubei,none,County-level,03-08-1987
+279,Wuhan,Hubei,same as city,Prefectural-level,01-10-1949
+280,Wuxue,Hubei,Huanggang,County-level,23-10-1987
+281,Xiangyang,Hubei,same as city,Prefectural-level,01-06-1951
+282,Xianning,Hubei,same as city,Prefectural-level,19-08-1983
+283,Xiantao,Hubei,none,County-level,27-05-1986
+284,Xiaogan,Hubei,same as city,Prefectural-level,19-08-1983
+285,Yichang,Hubei,same as city,Prefectural-level,01-10-1949
+286,Yicheng,Hubei,Xiangyang,County-level,10-06-1994
+287,Yidu,Hubei,Yichang,County-level,30-11-1987
+288,Yingcheng,Hubei,Xiaogan,County-level,27-05-1986
+289,Zaoyang,Hubei,Xiangyang,County-level,08-01-1988
+290,Zhijiang,Hubei,Yichang,County-level,30-07-1996
+291,Zhongxiang,Hubei,Jingmen,County-level,20-05-1992
+292,Changde,Hunan,same as city,Prefectural-level,19-10-1950
+293,Changning,Hunan,Hengyang,County-level,26-11-1996
+294,Changsha,Hunan,same as city,Prefectural-level,01-10-1949
+295,Chenzhou,Hunan,same as city,Prefectural-level,15-08-1960
+296,Hengyang,Hunan,same as city,Prefectural-level,01-10-1949
+297,Hongjiang,Hunan,Huaihua,County-level,19-10-1950
+298,Huaihua,Hunan,same as city,Prefectural-level,04-04-1979
+299,Jinshi,Hunan,Changde,County-level,19-10-1950
+300,Jishou,Hunan,Xiangxi,County-level,03-08-1982
+301,Leiyang,Hunan,Hengyang,County-level,11-11-1986
+302,Lengshuijiang,Hunan,Loudi,County-level,10-10-1969
+303,Lianyuan,Hunan,Loudi,County-level,10-06-1987
+304,Liling,Hunan,Zhuzhou,County-level,24-05-1985
+305,Linxiang,Hunan,Yueyang,County-level,01-09-1992
+306,Liuyang,Hunan,Changsha,County-level,16-01-1993
+307,Loudi,Hunan,same as city,Prefectural-level,09-07-1961
+308,Miluo,Hunan,Yueyang,County-level,23-09-1987
+309,Shaoshan,Hunan,Xiangtan,County-level,26-12-1990
+310,Shaoyang,Hunan,same as city,Prefectural-level,19-10-1950
+311,"Wugang, Hunan",Hunan,Shaoyang,County-level,18-02-1994
+312,Xiangtan,Hunan,same as city,Prefectural-level,19-10-1950
+313,Xiangxiang,Hunan,Xiangtan,County-level,12-09-1986
+314,Yiyang,Hunan,same as city,Prefectural-level,19-10-1950
+315,Yongzhou,Hunan,same as city,Prefectural-level,23-01-1982
+316,Yuanjiang,Hunan,Yiyang,County-level,11-10-1988
+317,Yueyang,Hunan,same as city,Prefectural-level,09-07-1961
+318,Zhangjiajie,Hunan,same as city,Prefectural-level,24-05-1985
+319,Zhuzhou,Hunan,same as city,Prefectural-level,06-06-1951
+320,Zixing,Hunan,Chenzhou,County-level,20-12-1984
+321,Arxan,Inner Mongolia,Hinggan,County-level,10-06-1996
+322,Baotou,Inner Mongolia,same as city,Prefectural-level,13-02-1950
+323,Bayannur,Inner Mongolia,same as city,Prefectural-level,01-12-2003
+324,Chifeng,Inner Mongolia,same as city,Prefectural-level,01-10-1949
+325,Erenhot,Inner Mongolia,Xilingol,County-level,18-01-1966
+326,Fengzhen,Inner Mongolia,Ulanqab,County-level,15-11-1990
+327,Ergun,Inner Mongolia,Hulunbuir,County-level,13-07-1994
+328,Genhe,Inner Mongolia,Hulunbuir,County-level,28-04-1994
+329,Hohhot,Inner Mongolia,same as city,Prefectural-level,23-01-1950
+330,Holingol,Inner Mongolia,Tongliao,County-level,09-11-1985
+331,Hulunbuir,Inner Mongolia,same as city,Prefectural-level,10-10-2001
+332,Manzhouli,Inner Mongolia,Hulunbuir,County-level,01-10-1949
+333,Ordos,Inner Mongolia,same as city,Prefectural-level,26-02-2001
+334,Tongliao,Inner Mongolia,same as city,Prefectural-level,17-07-1951
+335,Ulanhot,Inner Mongolia,Hinggan,County-level,01-10-1949
+336,Ulanqab,Inner Mongolia,same as city,Prefectural-level,01-12-2003
+337,Wuhai,Inner Mongolia,same as city,Prefectural-level,01-12-2003
+338,Xilinhot,Inner Mongolia,Xilingol,County-level,10-10-1983
+339,Yakeshi,Inner Mongolia,Hulunbuir,County-level,10-10-1983
+340,Zhalantun,Inner Mongolia,Hulunbuir,County-level,10-10-1983
+341,Changshu,Jiangsu,"Suzhou, Jiangsu",County-level,01-10-1949
+342,Changzhou,Jiangsu,same as city,Prefectural-level,28-11-1949
+343,Dafeng,Jiangsu,Yancheng,County-level,01-08-1996
+344,Danyang,Jiangsu,Zhenjiang,County-level,15-12-1987
+345,Dongtai,Jiangsu,Yancheng,County-level,17-12-1987
+346,Gaoyou,Jiangsu,Yangzhou,County-level,06-02-1991
+347,Haimen,Jiangsu,Nantong,County-level,26-04-1994
+348,Huai'an,Jiangsu,same as city,Prefectural-level,22-12-1987
+349,Jiangyin,Jiangsu,Wuxi,County-level,23-04-1987
+350,Jingjiang,Jiangsu,"Taizhou, Jiangsu",County-level,14-07-1993
+351,Jintan,Jiangsu,Changzhou,County-level,10-11-1993
+352,Jurong,Jiangsu,Zhenjiang,County-level,06-04-1995
+353,Liyang,Jiangsu,Changzhou,County-level,15-08-1990
+354,Lianyungang,Jiangsu,same as city,Prefectural-level,01-10-1949
+355,Kunshan,Jiangsu,"Suzhou, Jiangsu",County-level,27-07-1989
+356,Nanjing,Jiangsu,same as city,Prefectural-level,01-10-1949
+357,Nantong,Jiangsu,same as city,Prefectural-level,12-05-1950
+358,Pizhou,Jiangsu,Xuzhou,County-level,07-07-1992
+359,Qidong,Jiangsu,Nantong,County-level,13-11-1989
+360,Rugao,Jiangsu,Nantong,County-level,06-02-1991
+361,Suqian,Jiangsu,same as city,Prefectural-level,15-12-1987
+362,"Suzhou, Jiangsu",Jiangsu,same as city,Prefectural-level,28-11-1949
+363,Taicang,Jiangsu,"Suzhou, Jiangsu",County-level,08-01-1993
+364,"Taizhou, Jiangsu",Jiangsu,same as city,Prefectural-level,01-10-1949
+365,Taixing,Jiangsu,"Taizhou, Jiangsu",County-level,21-09-1992
+366,Wuxi,Jiangsu,same as city,Prefectural-level,01-10-1949
+367,"Xinyi, Jiangsu",Jiangsu,Xuzhou,County-level,05-02-1990
+368,Xinghua,Jiangsu,"Taizhou, Jiangsu",County-level,22-12-1987
+369,Xuzhou,Jiangsu,same as city,Prefectural-level,01-10-1949
+370,Yancheng,Jiangsu,same as city,Prefectural-level,18-01-1983
+371,Yangzhong,Jiangsu,Zhenjiang,County-level,18-05-1994
+372,Yangzhou,Jiangsu,same as city,Prefectural-level,08-08-1950
+373,Yixing,Jiangsu,Wuxi,County-level,09-01-1988
+374,Yizheng,Jiangsu,Yangzhou,County-level,21-04-1986
+375,Zhangjiagang,Jiangsu,"Suzhou, Jiangsu",County-level,16-09-1986
+376,Zhenjiang,Jiangsu,same as city,Prefectural-level,28-11-1949
+377,Dexing,Jiangxi,Shangrao,County-level,26-12-1990
+378,"Fengcheng, Jiangxi",Jiangxi,"Yichun, Jiangxi",County-level,04-10-1988
+379,"Fuzhou, Jiangxi",Jiangxi,same as city,Prefectural-level,23-06-2000
+380,Ganzhou,Jiangxi,same as city,Prefectural-level,01-10-1949
+381,Gao'an,Jiangxi,"Yichun, Jiangxi",County-level,08-12-1993
+382,Guixi,Jiangxi,Yingtan,County-level,28-05-1996
+383,"Ji'an, Jiangxi",Jiangxi,same as city,Prefectural-level,23-11-1950
+384,Jingdezhen,Jiangxi,same as city,Prefectural-level,01-10-1949
+385,Jinggangshan,Jiangxi,"Ji'an, Jiangxi",County-level,13-12-1984
+386,Jiujiang,Jiangxi,same as city,Prefectural-level,01-10-1949
+387,Leping,Jiangxi,Jingdezhen,County-level,27-07-1992
+388,Nankang,Jiangxi,Ganzhou,County-level,07-03-1995
+389,Nanchang,Jiangxi,same as city,Prefectural-level,01-10-1949
+390,"Pingxiang, Jiangxi",Jiangxi,same as city,Prefectural-level,30-09-1960
+391,Ruichang,Jiangxi,Jiujiang,County-level,20-12-1989
+392,Ruijin,Jiangxi,Ganzhou,County-level,20-12-1989
+393,Shangrao,Jiangxi,same as city,Prefectural-level,23-11-1950
+394,Xinyu,Jiangxi,same as city,Prefectural-level,30-09-1960
+395,Yingtan,Jiangxi,same as city,Prefectural-level,09-03-1979
+396,"Yichun, Jiangxi",Jiangxi,same as city,Prefectural-level,08-10-1979
+397,Zhangshu,Jiangxi,"Yichun, Jiangxi",County-level,13-10-1988
+398,Baicheng,Jilin,same as city,Prefectural-level,21-11-1958
+399,Baishan,Jilin,same as city,Prefectural-level,07-01-1960
+400,Changchun,Jilin,same as city,Prefectural-level,01-10-1949
+401,Da'an,Jilin,Baicheng,County-level,30-08-1988
+402,Dehui,Jilin,Changchun,County-level,06-07-1994
+403,Dunhua,Jilin,Yanbian,County-level,28-02-1985
+404,Fuyu,Jilin,Songyuan,County-level,07-10-1987
+405,Gongzhuling,Jilin,Siping,County-level,12-10-1956
+406,Helong,Jilin,Yanbian,County-level,05-07-1993
+407,Huadian,Jilin,Jilin,County-level,25-05-1988
+408,Hunchun,Jilin,Yanbian,County-level,25-05-1988
+409,"Ji'an, Jilin",Jilin,Tonghua,County-level,16-03-1988
+410,Jiaohe,Jilin,Jilin,County-level,15-08-1989
+411,Jilin,Jilin,same as city,Prefectural-level,01-10-1949
+412,Jiutai,Jilin,Changchun,County-level,30-08-1988
+413,Liaoyuan,Jilin,same as city,Prefectural-level,01-10-1949
+414,Linjiang,Jilin,Baishan,County-level,28-11-1993
+415,Longjing,Jilin,Yanbian,County-level,25-05-1988
+416,Meihekou,Jilin,Tonghua,County-level,19-12-1985
+417,Panshi,Jilin,Jilin,County-level,30-08-1995
+418,Shuangliao,Jilin,Siping,County-level,29-04-1996
+419,Shulan,Jilin,Jilin,County-level,08-10-1992
+420,Siping,Jilin,same as city,Prefectural-level,01-10-1949
+421,Songyuan,Jilin,same as city,Prefectural-level,06-06-1992
+422,Taonan,Jilin,Baicheng,County-level,21-05-1987
+423,Tonghua,Jilin,same as city,Prefectural-level,01-10-1949
+424,Tumen,Jilin,Yanbian,County-level,27-03-1965
+425,Yanji,Jilin,Yanbian,County-level,04-05-1953
+426,"Yushu, Jilin",Jilin,Changchun,County-level,26-12-1990
+427,Anshan,Liaoning,same as city,Prefectural-level,01-10-1949
+428,Benxi,Liaoning,same as city,Prefectural-level,01-10-1949
+429,Beipiao,Liaoning,Chaoyang,County-level,17-01-1985
+430,Beizhen,Liaoning,"Jinzhou, Liaoning",County-level,21-03-1995
+431,Chaoyang,Liaoning,same as city,Prefectural-level,20-12-1958
+432,Dalian,Liaoning,same as city,Prefectural-level,01-10-1949
+433,Dandong,Liaoning,same as city,Prefectural-level,01-10-1949
+434,Dashiqiao,Liaoning,Yingkou,County-level,03-11-1992
+435,Dengta,Liaoning,Liaoyang,County-level,27-08-1996
+436,Diaobingshan,Liaoning,Tieling,County-level,09-02-1981
+437,Donggang,Liaoning,Dandong,County-level,18-06-1993
+438,"Fengcheng, Liaoning",Liaoning,Dandong,County-level,08-03-1994
+439,Fushun,Liaoning,same as city,Prefectural-level,01-10-1949
+440,Fuxin,Liaoning,same as city,Prefectural-level,01-10-1949
+441,Gaizhou,Liaoning,Yingkou,County-level,03-11-1992
+442,Haicheng,Liaoning,Anshan,County-level,17-01-1985
+443,Huludao,Liaoning,same as city,Prefectural-level,11-09-1956
+444,"Jinzhou, Liaoning",Liaoning,same as city,Prefectural-level,01-10-1949
+445,"Kaiyuan, Liaoning",Liaoning,Tieling,County-level,27-12-1988
+446,Liaoyang,Liaoning,same as city,Prefectural-level,01-10-1949
+447,Linghai,Liaoning,"Jinzhou, Liaoning",County-level,16-11-1993
+448,Lingyuan,Liaoning,Chaoyang,County-level,21-12-1991
+449,Panjin,Liaoning,same as city,Prefectural-level,05-06-1984
+450,Pulandian,Liaoning,Dalian,County-level,30-11-1991
+451,Shenyang,Liaoning,same as city,Prefectural-level,01-10-1949
+452,Tieling,Liaoning,same as city,Prefectural-level,30-08-1979
+453,Wafangdian,Liaoning,Dalian,County-level,17-01-1985
+454,Xingcheng,Liaoning,Huludao,County-level,12-09-1986
+455,Xinmin,Liaoning,Shenyang,County-level,14-06-1993
+456,Yingkou,Liaoning,same as city,Prefectural-level,01-10-1949
+457,Zhuanghe,Liaoning,Dalian,County-level,21-09-1992
+458,Guyuan,Ningxia,same as city,Prefectural-level,07-07-2001
+459,Lingwu,Ningxia,Yinchuan,County-level,16-09-1996
+460,Qingtongxia,Ningxia,Wuzhong,County-level,15-08-1960
+461,Shizuishan,Ningxia,same as city,Prefectural-level,07-01-1960
+462,Wuzhong,Ningxia,same as city,Prefectural-level,04-10-1950
+463,Yinchuan,Ningxia,same as city,Prefectural-level,01-10-1949
+464,Zhongwei,Ningxia,same as city,Prefectural-level,31-12-2003
+465,Delhi,Qinghai,Haixi,County-level,19-04-1988
+466,Golmud,Qinghai,Haixi,County-level,17-11-1960
+467,Haidong,Qinghai,same as city,Prefectural-level,08-02-2013
+468,Xining,Qinghai,same as city,Prefectural-level,01-10-1949
+469,"Yushu, Qinghai",Qinghai,Yushu,County-level,04-07-2013
+470,Ankang,Shaanxi,same as city,Prefectural-level,28-11-1949
+471,Baoji,Shaanxi,same as city,Prefectural-level,01-10-1949
+472,Hancheng,Shaanxi,Weinan,County-level,09-09-1983
+473,Hanzhong,Shaanxi,same as city,Prefectural-level,08-12-1949
+474,Huayin,Shaanxi,Weinan,County-level,27-12-1990
+475,Shangluo,Shaanxi,same as city,Prefectural-level,31-08-2001
+476,Tongchuan,Shaanxi,same as city,Prefectural-level,04-04-1958
+477,Xi'an,Shaanxi,same as city,Prefectural-level,01-10-1949
+478,Xianyang,Shaanxi,same as city,Prefectural-level,23-05-1952
+479,Xingping,Shaanxi,Xianyang,County-level,18-06-1993
+480,Weinan,Shaanxi,same as city,Prefectural-level,09-09-1983
+481,Yan'an,Shaanxi,same as city,Prefectural-level,07-02-1972
+482,"Yulin, Shaanxi",Shaanxi,same as city,Prefectural-level,01-10-1949
+483,Anqiu,Shandong,Weifang,County-level,18-01-1994
+484,Binzhou,Shandong,same as city,Prefectural-level,02-08-1982
+485,Changyi,Shandong,Weifang,County-level,10-06-1994
+486,Dezhou,Shandong,same as city,Prefectural-level,01-10-1949
+487,Dongying,Shandong,same as city,Prefectural-level,10-11-1982
+488,Feicheng,Shandong,Tai'an,County-level,01-08-1992
+489,Gaomi,Shandong,Weifang,County-level,18-05-1994
+490,Haiyang,Shandong,Yantai,County-level,29-04-1996
+491,Heze,Shandong,same as city,Prefectural-level,20-01-1960
+492,Jiaozhou,Shandong,Qingdao,County-level,12-02-1987
+493,Jinan,Shandong,same as city,Prefectural-level,01-10-1949
+494,Jining,Shandong,same as city,Prefectural-level,01-10-1949
+495,Jimo,Shandong,Qingdao,County-level,27-07-1989
+496,Laiwu,Shandong,same as city,Prefectural-level,30-08-1983
+497,Laixi,Shandong,Qingdao,County-level,18-12-1990
+498,Laiyang,Shandong,Yantai,County-level,20-02-1987
+499,Laizhou,Shandong,Yantai,County-level,24-02-1988
+500,Leling,Shandong,Dezhou,County-level,01-09-1988
+501,Liaocheng,Shandong,same as city,Prefectural-level,20-12-1958
+502,Linqing,Shandong,Liaocheng,County-level,07-08-1954
+503,Linyi,Shandong,same as city,Prefectural-level,01-11-1958
+504,Longkou,Shandong,Yantai,County-level,01-10-1949
+505,Penglai,Shandong,Yantai,County-level,30-11-1991
+506,Pingdu,Shandong,Qingdao,County-level,27-07-1989
+507,Qingdao,Shandong,same as city,Prefectural-level,01-10-1949
+508,Qingzhou,Shandong,Weifang,County-level,01-03-1986
+509,Qixia,Shandong,Yantai,County-level,30-11-1995
+510,Qufu,Shandong,Jining,County-level,02-06-1986
+511,Rongcheng,Shandong,Weihai,County-level,01-11-1988
+512,Rizhao,Shandong,same as city,Prefectural-level,22-03-1985
+513,Rushan,Shandong,Weihai,County-level,17-07-1993
+514,Shouguang,Shandong,Weifang,County-level,01-06-1993
+515,Tai'an,Shandong,same as city,Prefectural-level,01-06-1958
+516,Tengzhou,Shandong,Zaozhuang,County-level,07-03-1988
+517,Weifang,Shandong,same as city,Prefectural-level,01-10-1949
+518,Weihai,Shandong,same as city,Prefectural-level,01-10-1949
+519,Wendeng,Shandong,Weihai,County-level,24-10-1988
+520,Xintai,Shandong,Tai'an,County-level,30-08-1983
+521,Yantai,Shandong,same as city,Prefectural-level,01-10-1949
+522,Yanzhou,Shandong,Jining,County-level,01-08-1992
+523,Yucheng,Shandong,Dezhou,County-level,09-09-1993
+524,Zaozhuang,Shandong,same as city,Prefectural-level,07-01-1960
+525,Zhaoyuan,Shandong,Yantai,County-level,21-12-1991
+526,Zhucheng,Shandong,Weifang,County-level,20-04-1987
+527,Zoucheng,Shandong,Jining,County-level,04-10-1992
+528,Zhangqiu,Shandong,Jinan,County-level,01-08-1992
+529,Zibo,Shandong,same as city,Prefectural-level,01-10-1949
+530,Changzhi,Shanxi,same as city,Prefectural-level,11-12-1951
+531,Datong,Shanxi,same as city,Prefectural-level,01-10-1949
+532,Fenyang,Shanxi,Lüliang,County-level,20-08-1996
+533,Gaoping,Shanxi,Jincheng,County-level,12-05-1993
+534,Gujiao,Shanxi,Taiyuan,County-level,24-02-1988
+535,Hejin,Shanxi,Yuncheng,County-level,12-01-1994
+536,Houma,Shanxi,Linfen,County-level,01-10-1958
+537,Huozhou,Shanxi,Linfen,County-level,23-12-1989
+538,Jiexiu,Shanxi,Jinzhong,County-level,10-02-1992
+539,Jincheng,Shanxi,same as city,Prefectural-level,28-07-1983
+540,Jinzhong,Shanxi,same as city,Prefectural-level,24-09-1999
+541,Linfen,Shanxi,same as city,Prefectural-level,05-06-1971
+542,Lucheng,Shanxi,Changzhi,County-level,26-04-1994
+543,Lüliang,Shanxi,same as city,Prefectural-level,23-10-2003
+544,Shuozhou,Shanxi,same as city,Prefectural-level,24-03-1988
+545,Taiyuan,Shanxi,same as city,Prefectural-level,01-10-1949
+546,Xiaoyi,Shanxi,Lüliang,County-level,10-02-1992
+547,Xinzhou,Shanxi,same as city,Prefectural-level,28-07-1983
+548,Yangquan,Shanxi,same as city,Prefectural-level,11-12-1951
+549,Yongji,Shanxi,Yuncheng,County-level,12-01-1994
+550,Yuncheng,Shanxi,same as city,Prefectural-level,28-07-1983
+551,Yuanping,Shanxi,Xinzhou,County-level,17-06-1993
+552,Bazhong,Sichuan,same as city,Prefectural-level,27-07-1993
+553,Chengdu,Sichuan,same as city,Prefectural-level,01-10-1949
+554,Chongzhou,Sichuan,Chengdu,County-level,20-06-1994
+555,Dazhou,Sichuan,same as city,Prefectural-level,04-02-1976
+556,Deyang,Sichuan,same as city,Prefectural-level,18-08-1983
+557,Dujiangyan,Sichuan,Chengdu,County-level,03-03-1988
+558,Emeishan,Sichuan,Leshan,County-level,01-09-1988
+559,Guang'an,Sichuan,same as city,Prefectural-level,31-07-1998
+560,Guanghan,Sichuan,Deyang,County-level,24-02-1988
+561,Guangyuan,Sichuan,same as city,Prefectural-level,08-02-1985
+562,Huaying,Sichuan,Guang'an,County-level,04-02-1985
+563,Jiangyou,Sichuan,Mianyang,County-level,24-02-1988
+564,"Jianyang, Sichuan",Sichuan,Ziyang,County-level,05-04-1994
+565,Langzhong,Sichuan,Nanchong,County-level,12-01-1991
+566,Leshan,Sichuan,same as city,Prefectural-level,16-11-1979
+567,Luzhou,Sichuan,same as city,Prefectural-level,01-10-1949
+568,Mianzhu,Sichuan,Deyang,County-level,15-10-1996
+569,Meishan,Sichuan,same as city,Prefectural-level,10-06-2000
+570,Mianyang,Sichuan,same as city,Prefectural-level,04-02-1976
+571,Neijiang,Sichuan,same as city,Prefectural-level,01-10-1949
+572,Nanchong,Sichuan,same as city,Prefectural-level,01-10-1949
+573,Panzhihua,Sichuan,same as city,Prefectural-level,22-04-1965
+574,Pengzhou,Sichuan,Chengdu,County-level,01-12-1993
+575,Qionglai,Sichuan,Chengdu,County-level,19-06-1994
+576,Shifang,Sichuan,Deyang,County-level,08-11-1995
+577,Suining,Sichuan,same as city,Prefectural-level,08-02-1985
+578,Wanyuan,Sichuan,Dazhou,County-level,14-07-1993
+579,Xichang,Sichuan,Liangshan,County-level,19-07-1979
+580,Ya'an,Sichuan,same as city,Prefectural-level,25-07-1951
+581,Yibin,Sichuan,same as city,Prefectural-level,01-10-1949
+582,Zigong,Sichuan,same as city,Prefectural-level,04-04-1952
+583,Ziyang,Sichuan,same as city,Prefectural-level,19-01-1993
+584,Lhasa,Tibet,same as city,Prefectural-level,07-01-1960
+585,Shigatse,Tibet,Shigatse,County-level,12-12-1986
+586,Aksu,Xinjiang,Aksu,County-level,19-08-1983
+587,Alashankou,Xinjiang,Bortala,County-level,17-12-2012
+588,Altay,Xinjiang,Altay,County-level,17-11-1984
+589,Aral,Xinjiang,none,County-level,17-09-2002
+590,Artux,Xinjiang,Kizilsu,County-level,07-06-1986
+591,Beitun,Xinjiang,none,County-level,27-12-2011
+592,Bole,Xinjiang,Bortala,County-level,24-06-1985
+593,Changji,Xinjiang,Changji,County-level,21-07-1983
+594,Fukang,Xinjiang,Changji,County-level,03-11-1992
+595,Yining,Xinjiang,Ili,County-level,22-05-1953
+596,Hotan,Xinjiang,Hotan,County-level,09-09-1983
+597,Karamay,Xinjiang,same as city,Prefectural-level,29-05-1958
+598,Kashgar,Xinjiang,Kashgar,County-level,22-05-1953
+599,Korla,Xinjiang,Bayingolin,County-level,02-09-1979
+600,Kumul,Xinjiang,Kumul,County-level,25-01-1961
+601,Kuytun,Xinjiang,Ili,County-level,29-08-1975
+602,Shihezi,Xinjiang,none,County-level,02-01-1976
+603,Tumxuk,Xinjiang,none,County-level,17-09-2002
+604,Tacheng,Xinjiang,Tacheng,County-level,17-11-1984
+605,Tiemenguan,Xinjiang,none,County-level,17-12-2012
+606,Turpan,Xinjiang,Turpan,County-level,26-12-1984
+607,Ürümqi,Xinjiang,same as city,Prefectural-level,01-10-1949
+608,Wujiaqu,Xinjiang,none,County-level,17-09-2002
+609,Wusu,Xinjiang,Tacheng,County-level,10-07-1996
+610,Anning,Yunnan,Kunming,County-level,13-10-1995
+611,Baoshan,Yunnan,same as city,Prefectural-level,09-09-1983
+612,Chuxiong,Yunnan,Chuxiong,County-level,09-09-1983
+613,Dali,Yunnan,Dali,County-level,13-09-1960
+614,Gejiu,Yunnan,Honghe,County-level,10-01-1951
+615,Jinghong,Yunnan,Xishuangbanna,County-level,22-12-1993
+616,"Kaiyuan, Yunnan",Yunnan,Honghe,County-level,18-01-1981
+617,Kunming,Yunnan,same as city,Prefectural-level,01-10-1949
+618,Lincang,Yunnan,same as city,Prefectural-level,26-12-2003
+619,Lijiang,Yunnan,same as city,Prefectural-level,26-12-2002
+620,Mang,Yunnan,Dehong,County-level,28-10-1996
+621,Mengzi,Yunnan,Honghe,County-level,10-09-2010
+622,Mile,Yunnan,Honghe,County-level,24-01-2013
+623,Pu'er,Yunnan,same as city,Prefectural-level,25-03-1993
+624,Qujing,Yunnan,same as city,Prefectural-level,09-09-1983
+625,Ruili,Yunnan,Dehong,County-level,26-06-1992
+626,Xuanwei,Yunnan,Qujing,County-level,18-02-1994
+627,Yuxi,Yunnan,same as city,Prefectural-level,09-09-1983
+628,Zhaotong,Yunnan,same as city,Prefectural-level,18-01-1981
+629,Cixi,Zhejiang,Ningbo,County-level,13-10-1988
+630,Dongyang,Zhejiang,Jinhua,County-level,25-05-1988
+631,Fenghua,Zhejiang,Ningbo,County-level,13-10-1988
+632,"Fuyang, Zhejiang",Zhejiang,Hangzhou,County-level,18-01-1994
+633,Haining,Zhejiang,Jiaxing,County-level,01-03-1986
+634,Hangzhou,Zhejiang,same as city,Prefectural-level,01-10-1949
+635,Huzhou,Zhejiang,same as city,Prefectural-level,01-10-1949
+636,Jiande,Zhejiang,Hangzhou,County-level,01-04-1992
+637,Jiangshan,Zhejiang,Quzhou,County-level,27-11-1987
+638,Jiaxing,Zhejiang,same as city,Prefectural-level,01-10-1949
+639,Jinhua,Zhejiang,same as city,Prefectural-level,01-10-1949
+640,Lanxi,Zhejiang,Jinhua,County-level,01-10-1949
+641,Longquan,Zhejiang,Lishui,County-level,26-12-1990
+642,Lin'an,Zhejiang,Hangzhou,County-level,28-10-1996
+643,Linhai,Zhejiang,"Taizhou, Zhejiang",County-level,01-03-1986
+644,Lishui,Zhejiang,same as city,Prefectural-level,01-03-1986
+645,Ningbo,Zhejiang,same as city,Prefectural-level,01-10-1949
+646,Pinghu,Zhejiang,Jiaxing,County-level,15-06-1991
+647,Quzhou,Zhejiang,same as city,Prefectural-level,01-10-1949
+648,Ruian,Zhejiang,Wenzhou,County-level,15-04-1987
+649,Shangyu,Zhejiang,Shaoxing,County-level,24-08-1992
+650,Shaoxing,Zhejiang,same as city,Prefectural-level,01-10-1949
+651,Shengzhou,Zhejiang,Shaoxing,County-level,30-08-1995
+652,"Taizhou, Zhejiang",Zhejiang,same as city,Prefectural-level,22-08-1994
+653,Tongxiang,Zhejiang,Jiaxing,County-level,26-03-1993
+654,Wenling,Zhejiang,"Taizhou, Zhejiang",County-level,18-02-1994
+655,Wenzhou,Zhejiang,same as city,Prefectural-level,01-10-1949
+656,Yueqing,Zhejiang,Wenzhou,County-level,18-09-1993
+657,Yongkang,Zhejiang,Jinhua,County-level,24-08-1992
+658,Yiwu,Zhejiang,Jinhua,County-level,25-05-1988
+659,Yuyao,Zhejiang,Ningbo,County-level,16-07-1985
+660,Zhoushan,Zhejiang,same as city,Prefectural-level,23-01-1987
+661,Zhuji,Zhejiang,Shaoxing,County-level,27-09-1989

@@ -1,19 +1,18 @@
 //
-//  MySignupViewController.swift
+//  GameViewController.swift
 //  StartingWhistle
 //
-//  Created by Zixiang Zhu on 8/25/15.
+//  Created by Zixiang Zhu on 5/15/15.
 //  Copyright (c) 2015 Zixiang Zhu. All rights reserved.
 //
 
 import UIKit
 
-class MySignupViewController: PFSignUpViewController {
+class GameViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let logoView = UIImageView(image: UIImage(named:"logo3.png"))
-        self.signUpView!.logo = logoView
+
         // Do any additional setup after loading the view.
     }
 
